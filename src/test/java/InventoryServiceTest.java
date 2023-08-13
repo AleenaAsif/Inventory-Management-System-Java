@@ -26,17 +26,17 @@ import static org.mockito.Mockito.*;
         private InventoryService inventoryService = new InventoryService();
 
         @Test
-        void fetchAllInventories_returnsListOfInventories() {
-            // Arrange
+        void fetchAllInventoriesTest() {
+
             List<InventoryDomain> expectedInventories = new ArrayList<>();
             expectedInventories.add(new InventoryDomain(1, "reverse", 20, "Phoenix", "Laptop"));
             expectedInventories.add(new InventoryDomain(2, "iPhone 13 Pro Max", 5, "Phoenix", "Phone"));
             expectedInventories.add(new InventoryDomain(3, "Macbook Air", 15, "Arizona", "Laptop"));
             expectedInventories.add(new InventoryDomain(4, "Macbook Pro", 20, "Arizona", "Laptop"));
-            // Act
+
             List<InventoryDomain> actualInventories = inventoryService.fetchAllInventories();
 
-            // Assert
+
             assertEquals(expectedInventories, actualInventories);
         }
 
@@ -65,7 +65,7 @@ import static org.mockito.Mockito.*;
         }
 
         @Test
-        void fetchInventoryByCategory_returnsListOfInventories() {
+        void fetchInventoryByCategoryTest() {
 
             List<InventoryDomain> expectedInventories = new ArrayList<>();
 
@@ -76,7 +76,7 @@ import static org.mockito.Mockito.*;
 
 
         @Test
-        void fetchInventoryByLocation_returnsListOfInventories() {
+        void fetchInventoryByLocationTest() {
 
             List<InventoryDomain> expectedInventories = new ArrayList<>();
 
