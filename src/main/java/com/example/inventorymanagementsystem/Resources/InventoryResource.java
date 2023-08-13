@@ -42,6 +42,7 @@ public class InventoryResource {
     @Path("/list")
     //fetching all inventories from database
     public List<InventoryDomain> fetchAllInventories(@HeaderParam("Authorization") String basicAuth) {
+        logger.info("GET request received");
         String[] usernamePassword = getUsernameAndPasswordFromBasicAuth(basicAuth);
 
         if (usernamePassword != null && usernamePassword.length == 2) {
@@ -67,6 +68,7 @@ public class InventoryResource {
     @Path("/{inventory_id}")
     public Response fetchInventoryById(@PathParam("inventory_id") int inventoryId,
                                        @HeaderParam("Authorization") String basicAuth) {
+        logger.info("GET request received");
         String[] usernamePassword = getUsernameAndPasswordFromBasicAuth(basicAuth);
 
         if (usernamePassword != null && usernamePassword.length == 2) {
@@ -98,6 +100,7 @@ public class InventoryResource {
     @Path("/listByCategory")
     public List<InventoryDomain> fetchInventoriesByCategory(@QueryParam("category") int categoryId,
                                                             @HeaderParam("Authorization") String basicAuth) {
+        logger.info("GET request received");
         logger.info("reached ListByCategory: InventoryResource");
         String[] usernamePassword = getUsernameAndPasswordFromBasicAuth(basicAuth);
 
@@ -124,6 +127,7 @@ public class InventoryResource {
     @Path("/listByLocation")
     public List<InventoryDomain> fetchInventoriesByLocation(@QueryParam("location") int locationId,
                                                             @HeaderParam("Authorization") String basicAuth) {
+        logger.info("GET request received");
         String[] usernamePassword = getUsernameAndPasswordFromBasicAuth(basicAuth);
 
         if (usernamePassword != null && usernamePassword.length == 2) {
@@ -151,6 +155,7 @@ public class InventoryResource {
             @QueryParam("location") int locationId,
             @QueryParam("category") int categoryId,
             @HeaderParam("Authorization") String basicAuth) {
+        logger.info("GET request received");
         String[] usernamePassword = getUsernameAndPasswordFromBasicAuth(basicAuth);
 
         if (usernamePassword != null && usernamePassword.length == 2) {
@@ -176,6 +181,7 @@ public class InventoryResource {
     @Path("/add")
     public Response addNewInventoryItem(InventoryDomain inventoryDomain,
                                         @HeaderParam("Authorization") String basicAuth) {
+        logger.info("POST request received");
         String[] usernamePassword = getUsernameAndPasswordFromBasicAuth(basicAuth);
 
         if (usernamePassword != null && usernamePassword.length == 2) {
@@ -209,6 +215,7 @@ public class InventoryResource {
     @Path("/{inventory_id}")
     public Response updateInventory(@PathParam("inventory_id") int inventoryId, InventoryDomain inventoryDomain,
                                     @HeaderParam("Authorization") String basicAuth) {
+        logger.info("PUT request received");
         String[] usernamePassword = getUsernameAndPasswordFromBasicAuth(basicAuth);
 
         if (usernamePassword != null && usernamePassword.length == 2) {
@@ -245,6 +252,7 @@ public class InventoryResource {
     @Path("/{inventory_id}")
     public Response deleteInventory(@PathParam("inventory_id") int inventoryId,
                                     @HeaderParam("Authorization") String basicAuth) {
+        logger.info("DELETE request received");
         String[] usernamePassword = getUsernameAndPasswordFromBasicAuth(basicAuth);
 
         if (usernamePassword != null && usernamePassword.length == 2) {
