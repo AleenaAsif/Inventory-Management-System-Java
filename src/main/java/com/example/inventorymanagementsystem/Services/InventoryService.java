@@ -17,8 +17,8 @@ import javax.ws.rs.core.Response;
 public class InventoryService {
 
     private static final Logger logger = LoggerFactory.getLogger("LoggerFile");
-    private final ItemCategoryService itemCategoryService = new ItemCategoryService();
-    private final ItemLocationService itemLocationService = new ItemLocationService();
+    public final ItemCategoryService itemCategoryService = new ItemCategoryService();
+    public final ItemLocationService itemLocationService = new ItemLocationService();
     private final AuthenticationService authService = new AuthenticationService();
 
     private final SQLQueries queries = new SQLQueries();
