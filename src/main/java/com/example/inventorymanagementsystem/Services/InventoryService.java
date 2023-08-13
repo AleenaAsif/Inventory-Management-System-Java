@@ -269,9 +269,7 @@ public class InventoryService {
             return false;
         }
     }
-    // Inside your InventoryService class
 
-    // Fetches the category ID based on the category name
     private int getCategoryIDByName(String categoryName) {
         int categoryId = -1; // Default value if not found
 
@@ -292,9 +290,9 @@ public class InventoryService {
         return categoryId;
     }
 
-    // Fetches the location ID based on the location name
+
     private int getLocationIDByName(String locationName) {
-        int locationId = -1; // Default value if not found
+        int locationId = -1; 
 
         try (Connection connection = DatabaseConnectionManager.getConnection();
              PreparedStatement statement = connection.prepareStatement(SQLQueries.getLocationIdByName)) {
