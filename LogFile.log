@@ -1,0 +1,1646 @@
+2023-08-11 20:46:51.939 _here
+2023-08-11 20:46:51.998 _HikariPool-1 - configuration:
+2023-08-11 20:46:52.030 _allowPoolSuspension.............false
+2023-08-11 20:46:52.031 _autoCommit......................true
+2023-08-11 20:46:52.031 _catalog.........................none
+2023-08-11 20:46:52.031 _connectionInitSql...............none
+2023-08-11 20:46:52.031 _connectionTestQuery.............none
+2023-08-11 20:46:52.034 _connectionTimeout...............30000
+2023-08-11 20:46:52.035 _dataSource......................none
+2023-08-11 20:46:52.035 _dataSourceClassName.............none
+2023-08-11 20:46:52.036 _dataSourceJNDI..................none
+2023-08-11 20:46:52.039 _dataSourceProperties............{password=<masked>}
+2023-08-11 20:46:52.076 _driverClassName.................none
+2023-08-11 20:46:52.077 _healthCheckProperties...........{}
+2023-08-11 20:46:52.077 _healthCheckRegistry.............none
+2023-08-11 20:46:52.077 _idleTimeout.....................600000
+2023-08-11 20:46:52.077 _initializationFailTimeout.......1
+2023-08-11 20:46:52.078 _isolateInternalQueries..........false
+2023-08-11 20:46:52.078 _jdbcUrl.........................jdbc:mysql://localhost:3306/Employees?useSSL=false
+2023-08-11 20:46:52.078 _leakDetectionThreshold..........0
+2023-08-11 20:46:52.079 _maxLifetime.....................1800000
+2023-08-11 20:46:52.079 _maximumPoolSize.................10
+2023-08-11 20:46:52.079 _metricRegistry..................none
+2023-08-11 20:46:52.079 _metricsTrackerFactory...........none
+2023-08-11 20:46:52.080 _minimumIdle.....................10
+2023-08-11 20:46:52.080 _password........................<masked>
+2023-08-11 20:46:52.080 _poolName........................"HikariPool-1"
+2023-08-11 20:46:52.080 _readOnly........................false
+2023-08-11 20:46:52.081 _registerMbeans..................false
+2023-08-11 20:46:52.081 _scheduledExecutor...............none
+2023-08-11 20:46:52.081 _schema..........................none
+2023-08-11 20:46:52.081 _threadFactory...................internal
+2023-08-11 20:46:52.082 _transactionIsolation............default
+2023-08-11 20:46:52.082 _username........................"root"
+2023-08-11 20:46:52.082 _validationTimeout...............5000
+2023-08-11 20:46:52.144 _HikariPool-1 - Starting...
+2023-08-11 20:48:39.349 _here
+2023-08-11 20:53:34.001 _here
+2023-08-11 20:53:34.028 _HikariPool-1 - configuration:
+2023-08-11 20:53:34.037 _allowPoolSuspension.............false
+2023-08-11 20:53:34.037 _autoCommit......................true
+2023-08-11 20:53:34.037 _catalog.........................none
+2023-08-11 20:53:34.038 _connectionInitSql...............none
+2023-08-11 20:53:34.038 _connectionTestQuery.............none
+2023-08-11 20:53:34.040 _connectionTimeout...............30000
+2023-08-11 20:53:34.041 _dataSource......................none
+2023-08-11 20:53:34.041 _dataSourceClassName.............none
+2023-08-11 20:53:34.041 _dataSourceJNDI..................none
+2023-08-11 20:53:34.042 _dataSourceProperties............{password=<masked>}
+2023-08-11 20:53:34.042 _driverClassName.................none
+2023-08-11 20:53:34.042 _healthCheckProperties...........{}
+2023-08-11 20:53:34.042 _healthCheckRegistry.............none
+2023-08-11 20:53:34.043 _idleTimeout.....................600000
+2023-08-11 20:53:34.043 _initializationFailTimeout.......1
+2023-08-11 20:53:34.043 _isolateInternalQueries..........false
+2023-08-11 20:53:34.043 _jdbcUrl.........................jdbc:mysql://localhost:3306/inventorymanagement
+2023-08-11 20:53:34.043 _leakDetectionThreshold..........0
+2023-08-11 20:53:34.043 _maxLifetime.....................1800000
+2023-08-11 20:53:34.044 _maximumPoolSize.................10
+2023-08-11 20:53:34.044 _metricRegistry..................none
+2023-08-11 20:53:34.044 _metricsTrackerFactory...........none
+2023-08-11 20:53:34.044 _minimumIdle.....................10
+2023-08-11 20:53:34.044 _password........................<masked>
+2023-08-11 20:53:34.044 _poolName........................"HikariPool-1"
+2023-08-11 20:53:34.044 _readOnly........................false
+2023-08-11 20:53:34.045 _registerMbeans..................false
+2023-08-11 20:53:34.045 _scheduledExecutor...............none
+2023-08-11 20:53:34.045 _schema..........................none
+2023-08-11 20:53:34.045 _threadFactory...................internal
+2023-08-11 20:53:34.045 _transactionIsolation............default
+2023-08-11 20:53:34.045 _username........................"root"
+2023-08-11 20:53:34.045 _validationTimeout...............5000
+2023-08-11 20:53:34.054 _HikariPool-1 - Starting...
+2023-08-11 20:53:43.184 _here
+2023-08-11 21:00:32.543 _here
+2023-08-11 21:00:32.561 _HikariPool-1 - configuration:
+2023-08-11 21:00:32.570 _allowPoolSuspension.............false
+2023-08-11 21:00:32.571 _autoCommit......................true
+2023-08-11 21:00:32.571 _catalog.........................none
+2023-08-11 21:00:32.571 _connectionInitSql...............none
+2023-08-11 21:00:32.571 _connectionTestQuery.............none
+2023-08-11 21:00:32.573 _connectionTimeout...............30000
+2023-08-11 21:00:32.573 _dataSource......................none
+2023-08-11 21:00:32.573 _dataSourceClassName.............none
+2023-08-11 21:00:32.573 _dataSourceJNDI..................none
+2023-08-11 21:00:32.574 _dataSourceProperties............{password=<masked>}
+2023-08-11 21:00:32.574 _driverClassName.................none
+2023-08-11 21:00:32.574 _healthCheckProperties...........{}
+2023-08-11 21:00:32.574 _healthCheckRegistry.............none
+2023-08-11 21:00:32.574 _idleTimeout.....................600000
+2023-08-11 21:00:32.575 _initializationFailTimeout.......1
+2023-08-11 21:00:32.575 _isolateInternalQueries..........false
+2023-08-11 21:00:32.575 _jdbcUrl.........................jdbc:mysql://localhost:3306/inventorymanagement
+2023-08-11 21:00:32.575 _leakDetectionThreshold..........0
+2023-08-11 21:00:32.576 _maxLifetime.....................1800000
+2023-08-11 21:00:32.576 _maximumPoolSize.................10
+2023-08-11 21:00:32.576 _metricRegistry..................none
+2023-08-11 21:00:32.576 _metricsTrackerFactory...........none
+2023-08-11 21:00:32.576 _minimumIdle.....................10
+2023-08-11 21:00:32.576 _password........................<masked>
+2023-08-11 21:00:32.577 _poolName........................"HikariPool-1"
+2023-08-11 21:00:32.577 _readOnly........................false
+2023-08-11 21:00:32.577 _registerMbeans..................false
+2023-08-11 21:00:32.577 _scheduledExecutor...............none
+2023-08-11 21:00:32.577 _schema..........................none
+2023-08-11 21:00:32.577 _threadFactory...................internal
+2023-08-11 21:00:32.578 _transactionIsolation............default
+2023-08-11 21:00:32.578 _username........................"root"
+2023-08-11 21:00:32.578 _validationTimeout...............5000
+2023-08-11 21:00:32.587 _HikariPool-1 - Starting...
+2023-08-11 21:03:11.157 _here
+2023-08-11 21:03:12.409 _here
+2023-08-11 21:06:01.238 _here
+2023-08-11 21:06:01.273 _HikariPool-1 - configuration:
+2023-08-11 21:06:01.299 _allowPoolSuspension.............false
+2023-08-11 21:06:01.299 _autoCommit......................true
+2023-08-11 21:06:01.300 _catalog.........................none
+2023-08-11 21:06:01.300 _connectionInitSql...............none
+2023-08-11 21:06:01.300 _connectionTestQuery.............none
+2023-08-11 21:06:01.302 _connectionTimeout...............30000
+2023-08-11 21:06:01.302 _dataSource......................none
+2023-08-11 21:06:01.302 _dataSourceClassName.............none
+2023-08-11 21:06:01.302 _dataSourceJNDI..................none
+2023-08-11 21:06:01.303 _dataSourceProperties............{password=<masked>}
+2023-08-11 21:06:01.304 _driverClassName.................none
+2023-08-11 21:06:01.304 _healthCheckProperties...........{}
+2023-08-11 21:06:01.304 _healthCheckRegistry.............none
+2023-08-11 21:06:01.304 _idleTimeout.....................600000
+2023-08-11 21:06:01.305 _initializationFailTimeout.......1
+2023-08-11 21:06:01.305 _isolateInternalQueries..........false
+2023-08-11 21:06:01.305 _jdbcUrl.........................jdbc:mysql://localhost:3306/inventorymanagement
+2023-08-11 21:06:01.306 _leakDetectionThreshold..........0
+2023-08-11 21:06:01.306 _maxLifetime.....................1800000
+2023-08-11 21:06:01.306 _maximumPoolSize.................10
+2023-08-11 21:06:01.307 _metricRegistry..................none
+2023-08-11 21:06:01.308 _metricsTrackerFactory...........none
+2023-08-11 21:06:01.308 _minimumIdle.....................10
+2023-08-11 21:06:01.308 _password........................<masked>
+2023-08-11 21:06:01.309 _poolName........................"HikariPool-1"
+2023-08-11 21:06:01.309 _readOnly........................false
+2023-08-11 21:06:01.309 _registerMbeans..................false
+2023-08-11 21:06:01.310 _scheduledExecutor...............none
+2023-08-11 21:06:01.310 _schema..........................none
+2023-08-11 21:06:01.310 _threadFactory...................internal
+2023-08-11 21:06:01.310 _transactionIsolation............default
+2023-08-11 21:06:01.311 _username........................"root"
+2023-08-11 21:06:01.311 _validationTimeout...............5000
+2023-08-11 21:06:01.321 _HikariPool-1 - Starting...
+2023-08-11 21:06:04.661 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7d496c8
+2023-08-11 21:06:04.665 _HikariPool-1 - Start completed.
+2023-08-11 21:06:04.781 _HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2023-08-11 21:06:04.895 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c695ebb
+2023-08-11 21:06:05.154 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3d545480
+2023-08-11 21:06:05.398 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@c234a96
+2023-08-11 21:06:05.526 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d7babcf
+2023-08-11 21:06:05.800 _Failed to get all inventories from database :InventoryService
+2023-08-11 21:06:06.036 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59351215
+2023-08-11 21:06:06.302 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@43087d20
+2023-08-11 21:06:06.476 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6ceba7c5
+2023-08-11 21:06:06.573 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ef7ab7d
+2023-08-11 21:06:06.801 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2f12dfa9
+2023-08-11 21:06:06.801 _HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 18:01:26.848 _here
+2023-08-12 18:01:26.895 _HikariPool-1 - configuration:
+2023-08-12 18:01:26.903 _allowPoolSuspension.............false
+2023-08-12 18:01:26.903 _autoCommit......................true
+2023-08-12 18:01:26.904 _catalog.........................none
+2023-08-12 18:01:26.904 _connectionInitSql...............none
+2023-08-12 18:01:26.904 _connectionTestQuery.............none
+2023-08-12 18:01:26.905 _connectionTimeout...............30000
+2023-08-12 18:01:26.905 _dataSource......................none
+2023-08-12 18:01:26.905 _dataSourceClassName.............none
+2023-08-12 18:01:26.905 _dataSourceJNDI..................none
+2023-08-12 18:01:26.906 _dataSourceProperties............{password=<masked>}
+2023-08-12 18:01:26.906 _driverClassName.................none
+2023-08-12 18:01:26.906 _healthCheckProperties...........{}
+2023-08-12 18:01:26.907 _healthCheckRegistry.............none
+2023-08-12 18:01:26.907 _idleTimeout.....................600000
+2023-08-12 18:01:26.907 _initializationFailTimeout.......1
+2023-08-12 18:01:26.908 _isolateInternalQueries..........false
+2023-08-12 18:01:26.908 _jdbcUrl.........................jdbc:mysql://localhost:3306/inventorymanagement
+2023-08-12 18:01:26.909 _leakDetectionThreshold..........0
+2023-08-12 18:01:26.909 _maxLifetime.....................1800000
+2023-08-12 18:01:26.909 _maximumPoolSize.................10
+2023-08-12 18:01:26.909 _metricRegistry..................none
+2023-08-12 18:01:26.909 _metricsTrackerFactory...........none
+2023-08-12 18:01:26.909 _minimumIdle.....................10
+2023-08-12 18:01:26.909 _password........................<masked>
+2023-08-12 18:01:26.910 _poolName........................"HikariPool-1"
+2023-08-12 18:01:26.910 _readOnly........................false
+2023-08-12 18:01:26.910 _registerMbeans..................false
+2023-08-12 18:01:26.910 _scheduledExecutor...............none
+2023-08-12 18:01:26.910 _schema..........................none
+2023-08-12 18:01:26.910 _threadFactory...................internal
+2023-08-12 18:01:26.910 _transactionIsolation............default
+2023-08-12 18:01:26.910 _username........................"root"
+2023-08-12 18:01:26.911 _validationTimeout...............5000
+2023-08-12 18:01:26.919 _HikariPool-1 - Starting...
+2023-08-12 18:01:31.893 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@619286ed
+2023-08-12 18:01:31.898 _HikariPool-1 - Start completed.
+2023-08-12 18:01:32.002 _HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2023-08-12 18:01:32.363 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@79048bcd
+2023-08-12 18:01:32.853 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@383981f6
+2023-08-12 18:01:33.182 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@94bff50
+2023-08-12 18:01:33.508 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@58167eb9
+2023-08-12 18:01:33.741 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c58c206
+2023-08-12 18:01:34.042 _Failed to get all inventories from database :InventoryService
+2023-08-12 18:01:34.094 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@34c80fb6
+2023-08-12 18:01:34.268 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1df6f5c5
+2023-08-12 18:01:34.606 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d88bd81
+2023-08-12 18:01:35.156 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2858104
+2023-08-12 18:01:35.156 _HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:20:02.241 _here
+2023-08-12 19:20:02.325 _HikariPool-1 - configuration:
+2023-08-12 19:20:02.334 _allowPoolSuspension.............false
+2023-08-12 19:20:02.335 _autoCommit......................true
+2023-08-12 19:20:02.336 _catalog.........................none
+2023-08-12 19:20:02.336 _connectionInitSql...............none
+2023-08-12 19:20:02.337 _connectionTestQuery.............none
+2023-08-12 19:20:02.339 _connectionTimeout...............30000
+2023-08-12 19:20:02.339 _dataSource......................none
+2023-08-12 19:20:02.340 _dataSourceClassName.............none
+2023-08-12 19:20:02.340 _dataSourceJNDI..................none
+2023-08-12 19:20:02.341 _dataSourceProperties............{password=<masked>}
+2023-08-12 19:20:02.341 _driverClassName.................none
+2023-08-12 19:20:02.342 _healthCheckProperties...........{}
+2023-08-12 19:20:02.342 _healthCheckRegistry.............none
+2023-08-12 19:20:02.342 _idleTimeout.....................600000
+2023-08-12 19:20:02.342 _initializationFailTimeout.......1
+2023-08-12 19:20:02.343 _isolateInternalQueries..........false
+2023-08-12 19:20:02.343 _jdbcUrl.........................jdbc:mysql://localhost:3306/inventorymanagement
+2023-08-12 19:20:02.344 _leakDetectionThreshold..........0
+2023-08-12 19:20:02.344 _maxLifetime.....................1800000
+2023-08-12 19:20:02.344 _maximumPoolSize.................10
+2023-08-12 19:20:02.345 _metricRegistry..................none
+2023-08-12 19:20:02.345 _metricsTrackerFactory...........none
+2023-08-12 19:20:02.345 _minimumIdle.....................10
+2023-08-12 19:20:02.345 _password........................<masked>
+2023-08-12 19:20:02.345 _poolName........................"HikariPool-1"
+2023-08-12 19:20:02.346 _readOnly........................false
+2023-08-12 19:20:02.346 _registerMbeans..................false
+2023-08-12 19:20:02.346 _scheduledExecutor...............none
+2023-08-12 19:20:02.347 _schema..........................none
+2023-08-12 19:20:02.347 _threadFactory...................internal
+2023-08-12 19:20:02.347 _transactionIsolation............default
+2023-08-12 19:20:02.348 _username........................"root"
+2023-08-12 19:20:02.348 _validationTimeout...............5000
+2023-08-12 19:20:02.359 _HikariPool-1 - Starting...
+2023-08-12 19:20:07.303 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@762571bc
+2023-08-12 19:20:07.308 _HikariPool-1 - Start completed.
+2023-08-12 19:20:07.413 _HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2023-08-12 19:20:08.271 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@301576a
+2023-08-12 19:20:08.588 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@423c5d51
+2023-08-12 19:20:08.843 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@73b4dc31
+2023-08-12 19:20:09.212 _Failed to get all inventories from database :InventoryService
+2023-08-12 19:20:09.242 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2213a21e
+2023-08-12 19:20:09.784 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@265dfcbc
+2023-08-12 19:20:10.916 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@73e0189a
+2023-08-12 19:20:11.100 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e92e7a8
+2023-08-12 19:20:11.347 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4ad9ba27
+2023-08-12 19:20:11.792 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@eaece0f
+2023-08-12 19:20:11.792 _HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:20:37.425 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:21:07.431 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:21:37.437 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:22:07.450 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:22:37.454 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:23:00.286 _here
+2023-08-12 19:23:00.391 _Failed to get all inventories from database :InventoryService
+2023-08-12 19:23:01.096 _here
+2023-08-12 19:23:01.100 _Failed to get all inventories from database :InventoryService
+2023-08-12 19:23:07.462 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:23:49.304 _here
+2023-08-12 19:23:49.342 _HikariPool-1 - configuration:
+2023-08-12 19:23:49.351 _allowPoolSuspension.............false
+2023-08-12 19:23:49.351 _autoCommit......................true
+2023-08-12 19:23:49.351 _catalog.........................none
+2023-08-12 19:23:49.351 _connectionInitSql...............none
+2023-08-12 19:23:49.352 _connectionTestQuery.............none
+2023-08-12 19:23:49.354 _connectionTimeout...............30000
+2023-08-12 19:23:49.354 _dataSource......................none
+2023-08-12 19:23:49.355 _dataSourceClassName.............none
+2023-08-12 19:23:49.355 _dataSourceJNDI..................none
+2023-08-12 19:23:49.356 _dataSourceProperties............{password=<masked>}
+2023-08-12 19:23:49.356 _driverClassName.................none
+2023-08-12 19:23:49.356 _healthCheckProperties...........{}
+2023-08-12 19:23:49.357 _healthCheckRegistry.............none
+2023-08-12 19:23:49.357 _idleTimeout.....................600000
+2023-08-12 19:23:49.357 _initializationFailTimeout.......1
+2023-08-12 19:23:49.357 _isolateInternalQueries..........false
+2023-08-12 19:23:49.358 _jdbcUrl.........................jdbc:mysql://localhost:3306/inventorymanagement
+2023-08-12 19:23:49.358 _leakDetectionThreshold..........0
+2023-08-12 19:23:49.358 _maxLifetime.....................1800000
+2023-08-12 19:23:49.358 _maximumPoolSize.................10
+2023-08-12 19:23:49.358 _metricRegistry..................none
+2023-08-12 19:23:49.358 _metricsTrackerFactory...........none
+2023-08-12 19:23:49.359 _minimumIdle.....................10
+2023-08-12 19:23:49.359 _password........................<masked>
+2023-08-12 19:23:49.359 _poolName........................"HikariPool-1"
+2023-08-12 19:23:49.359 _readOnly........................false
+2023-08-12 19:23:49.359 _registerMbeans..................false
+2023-08-12 19:23:49.359 _scheduledExecutor...............none
+2023-08-12 19:23:49.360 _schema..........................none
+2023-08-12 19:23:49.360 _threadFactory...................internal
+2023-08-12 19:23:49.360 _transactionIsolation............default
+2023-08-12 19:23:49.360 _username........................"root"
+2023-08-12 19:23:49.360 _validationTimeout...............5000
+2023-08-12 19:23:49.370 _HikariPool-1 - Starting...
+2023-08-12 19:23:50.364 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@36477f74
+2023-08-12 19:23:50.368 _HikariPool-1 - Start completed.
+2023-08-12 19:23:50.484 _HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2023-08-12 19:23:50.560 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@67d72bcb
+2023-08-12 19:23:50.600 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@26ea21f0
+2023-08-12 19:23:50.679 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@17060226
+2023-08-12 19:23:50.728 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@46c5debf
+2023-08-12 19:23:50.806 _got item by id: ItemCategoryService
+2023-08-12 19:23:50.826 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@428be4db
+2023-08-12 19:23:50.829 _got item by id: ItemLocationervice
+2023-08-12 19:23:50.831 _got item by id: ItemCategoryService
+2023-08-12 19:23:50.833 _got item by id: ItemLocationervice
+2023-08-12 19:23:50.835 _got item by id: ItemCategoryService
+2023-08-12 19:23:50.838 _got item by id: ItemLocationervice
+2023-08-12 19:23:50.840 _got item by id: ItemCategoryService
+2023-08-12 19:23:50.842 _got item by id: ItemLocationervice
+2023-08-12 19:23:50.913 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@64b5be56
+2023-08-12 19:23:50.947 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c5be535
+2023-08-12 19:23:51.034 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@82c71a9
+2023-08-12 19:23:51.154 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@11db55fa
+2023-08-12 19:23:51.154 _HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:24:20.494 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:24:50.495 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:25:20.508 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:25:50.523 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:26:20.539 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:26:50.539 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:27:20.556 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:27:50.561 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:28:20.579 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:33:53.813 _here
+2023-08-12 19:33:53.869 _HikariPool-1 - configuration:
+2023-08-12 19:33:53.879 _allowPoolSuspension.............false
+2023-08-12 19:33:53.880 _autoCommit......................true
+2023-08-12 19:33:53.880 _catalog.........................none
+2023-08-12 19:33:53.880 _connectionInitSql...............none
+2023-08-12 19:33:53.880 _connectionTestQuery.............none
+2023-08-12 19:33:53.882 _connectionTimeout...............30000
+2023-08-12 19:33:53.882 _dataSource......................none
+2023-08-12 19:33:53.882 _dataSourceClassName.............none
+2023-08-12 19:33:53.882 _dataSourceJNDI..................none
+2023-08-12 19:33:53.882 _dataSourceProperties............{password=<masked>}
+2023-08-12 19:33:53.883 _driverClassName.................none
+2023-08-12 19:33:53.883 _healthCheckProperties...........{}
+2023-08-12 19:33:53.883 _healthCheckRegistry.............none
+2023-08-12 19:33:53.883 _idleTimeout.....................600000
+2023-08-12 19:33:53.883 _initializationFailTimeout.......1
+2023-08-12 19:33:53.884 _isolateInternalQueries..........false
+2023-08-12 19:33:53.884 _jdbcUrl.........................jdbc:mysql://localhost:3306/inventorymanagement
+2023-08-12 19:33:53.884 _leakDetectionThreshold..........0
+2023-08-12 19:33:53.884 _maxLifetime.....................1800000
+2023-08-12 19:33:53.884 _maximumPoolSize.................10
+2023-08-12 19:33:53.884 _metricRegistry..................none
+2023-08-12 19:33:53.884 _metricsTrackerFactory...........none
+2023-08-12 19:33:53.884 _minimumIdle.....................10
+2023-08-12 19:33:53.885 _password........................<masked>
+2023-08-12 19:33:53.885 _poolName........................"HikariPool-1"
+2023-08-12 19:33:53.885 _readOnly........................false
+2023-08-12 19:33:53.885 _registerMbeans..................false
+2023-08-12 19:33:53.885 _scheduledExecutor...............none
+2023-08-12 19:33:53.885 _schema..........................none
+2023-08-12 19:33:53.885 _threadFactory...................internal
+2023-08-12 19:33:53.885 _transactionIsolation............default
+2023-08-12 19:33:53.885 _username........................"root"
+2023-08-12 19:33:53.886 _validationTimeout...............5000
+2023-08-12 19:33:53.910 _HikariPool-1 - Starting...
+2023-08-12 19:33:55.700 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7bd637b7
+2023-08-12 19:33:55.705 _HikariPool-1 - Start completed.
+2023-08-12 19:33:55.834 _HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2023-08-12 19:33:55.918 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71e225f5
+2023-08-12 19:33:56.012 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@30df2fce
+2023-08-12 19:33:56.027 _got item by id: ItemCategoryService
+2023-08-12 19:33:56.062 _got item by id: ItemLocationervice
+2023-08-12 19:33:56.064 _got item by id: ItemCategoryService
+2023-08-12 19:33:56.066 _got item by id: ItemLocationervice
+2023-08-12 19:33:56.069 _got item by id: ItemCategoryService
+2023-08-12 19:33:56.073 _got item by id: ItemLocationervice
+2023-08-12 19:33:56.075 _got item by id: ItemCategoryService
+2023-08-12 19:33:56.102 _got item by id: ItemLocationervice
+2023-08-12 19:33:56.100 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1a5bf21
+2023-08-12 19:33:56.173 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@50f0d081
+2023-08-12 19:33:56.228 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@54be6cd0
+2023-08-12 19:33:56.275 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f4fa8a2
+2023-08-12 19:33:56.320 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3c4e0adb
+2023-08-12 19:33:56.426 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@12e444eb
+2023-08-12 19:33:56.528 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4cfff40f
+2023-08-12 19:33:56.528 _HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:34:25.835 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:34:55.837 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:35:25.845 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:35:55.853 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:36:25.861 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:36:55.874 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:37:25.888 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:37:55.889 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:38:25.891 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:38:55.896 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:39:05.862 _here
+2023-08-12 19:39:05.933 _got item by id: ItemCategoryService
+2023-08-12 19:39:05.935 _got item by id: ItemLocationervice
+2023-08-12 19:39:05.937 _got item by id: ItemCategoryService
+2023-08-12 19:39:05.938 _got item by id: ItemLocationervice
+2023-08-12 19:39:05.940 _got item by id: ItemCategoryService
+2023-08-12 19:39:05.941 _got item by id: ItemLocationervice
+2023-08-12 19:39:05.945 _got item by id: ItemCategoryService
+2023-08-12 19:39:05.946 _got item by id: ItemLocationervice
+2023-08-12 19:39:25.906 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:39:55.920 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:40:25.931 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:40:55.934 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:41:25.942 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:41:33.719 _here
+2023-08-12 19:41:33.723 _got item by id: ItemCategoryService
+2023-08-12 19:41:33.727 _got item by id: ItemLocationervice
+2023-08-12 19:41:33.728 _got item by id: ItemCategoryService
+2023-08-12 19:41:33.730 _got item by id: ItemLocationervice
+2023-08-12 19:41:33.731 _got item by id: ItemCategoryService
+2023-08-12 19:41:33.732 _got item by id: ItemLocationervice
+2023-08-12 19:41:33.734 _got item by id: ItemCategoryService
+2023-08-12 19:41:33.735 _got item by id: ItemLocationervice
+2023-08-12 19:41:41.580 _here
+2023-08-12 19:41:41.589 _got item by id: ItemCategoryService
+2023-08-12 19:41:41.591 _got item by id: ItemLocationervice
+2023-08-12 19:41:41.593 _got item by id: ItemCategoryService
+2023-08-12 19:41:41.595 _got item by id: ItemLocationervice
+2023-08-12 19:41:41.597 _got item by id: ItemCategoryService
+2023-08-12 19:41:41.599 _got item by id: ItemLocationervice
+2023-08-12 19:41:41.601 _got item by id: ItemCategoryService
+2023-08-12 19:41:41.604 _got item by id: ItemLocationervice
+2023-08-12 19:43:41.464 _here
+2023-08-12 19:43:41.492 _HikariPool-1 - configuration:
+2023-08-12 19:43:41.502 _allowPoolSuspension.............false
+2023-08-12 19:43:41.503 _autoCommit......................true
+2023-08-12 19:43:41.503 _catalog.........................none
+2023-08-12 19:43:41.503 _connectionInitSql...............none
+2023-08-12 19:43:41.503 _connectionTestQuery.............none
+2023-08-12 19:43:41.505 _connectionTimeout...............30000
+2023-08-12 19:43:41.505 _dataSource......................none
+2023-08-12 19:43:41.506 _dataSourceClassName.............none
+2023-08-12 19:43:41.506 _dataSourceJNDI..................none
+2023-08-12 19:43:41.507 _dataSourceProperties............{password=<masked>}
+2023-08-12 19:43:41.507 _driverClassName.................none
+2023-08-12 19:43:41.507 _healthCheckProperties...........{}
+2023-08-12 19:43:41.507 _healthCheckRegistry.............none
+2023-08-12 19:43:41.507 _idleTimeout.....................600000
+2023-08-12 19:43:41.508 _initializationFailTimeout.......1
+2023-08-12 19:43:41.508 _isolateInternalQueries..........false
+2023-08-12 19:43:41.508 _jdbcUrl.........................jdbc:mysql://localhost:3306/inventorymanagement
+2023-08-12 19:43:41.508 _leakDetectionThreshold..........0
+2023-08-12 19:43:41.508 _maxLifetime.....................1800000
+2023-08-12 19:43:41.509 _maximumPoolSize.................10
+2023-08-12 19:43:41.509 _metricRegistry..................none
+2023-08-12 19:43:41.509 _metricsTrackerFactory...........none
+2023-08-12 19:43:41.509 _minimumIdle.....................10
+2023-08-12 19:43:41.509 _password........................<masked>
+2023-08-12 19:43:41.509 _poolName........................"HikariPool-1"
+2023-08-12 19:43:41.510 _readOnly........................false
+2023-08-12 19:43:41.510 _registerMbeans..................false
+2023-08-12 19:43:41.510 _scheduledExecutor...............none
+2023-08-12 19:43:41.510 _schema..........................none
+2023-08-12 19:43:41.510 _threadFactory...................internal
+2023-08-12 19:43:41.511 _transactionIsolation............default
+2023-08-12 19:43:41.511 _username........................"root"
+2023-08-12 19:43:41.511 _validationTimeout...............5000
+2023-08-12 19:43:41.521 _HikariPool-1 - Starting...
+2023-08-12 19:43:42.276 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c41bfdd
+2023-08-12 19:43:42.280 _HikariPool-1 - Start completed.
+2023-08-12 19:43:42.387 _HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=1)
+2023-08-12 19:43:42.391 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4bcfbf6a
+2023-08-12 19:43:42.399 _got item by id: ItemCategoryService
+2023-08-12 19:43:42.425 _got item by id: ItemLocationervice
+2023-08-12 19:43:42.427 _got item by id: ItemCategoryService
+2023-08-12 19:43:42.429 _got item by id: ItemLocationervice
+2023-08-12 19:43:42.431 _got item by id: ItemCategoryService
+2023-08-12 19:43:42.434 _got item by id: ItemLocationervice
+2023-08-12 19:43:42.437 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@af2b551
+2023-08-12 19:43:42.459 _got item by id: ItemCategoryService
+2023-08-12 19:43:42.461 _got item by id: ItemLocationervice
+2023-08-12 19:43:42.499 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3bb23a06
+2023-08-12 19:43:42.537 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6add4a1e
+2023-08-12 19:43:42.621 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6e93d472
+2023-08-12 19:43:42.668 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@712d2ae
+2023-08-12 19:43:42.730 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6e259df5
+2023-08-12 19:43:42.770 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6df36857
+2023-08-12 19:43:42.824 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1effb6ba
+2023-08-12 19:43:49.903 _here
+2023-08-12 19:43:49.907 _got item by id: ItemCategoryService
+2023-08-12 19:43:49.908 _got item by id: ItemLocationervice
+2023-08-12 19:43:49.910 _got item by id: ItemCategoryService
+2023-08-12 19:43:49.911 _got item by id: ItemLocationervice
+2023-08-12 19:43:49.915 _got item by id: ItemCategoryService
+2023-08-12 19:43:49.916 _got item by id: ItemLocationervice
+2023-08-12 19:43:49.918 _got item by id: ItemCategoryService
+2023-08-12 19:43:49.920 _got item by id: ItemLocationervice
+2023-08-12 19:44:12.395 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:44:15.310 _Could not fetch inventory by id
+2023-08-12 19:44:42.410 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:44:59.765 _Could not fetch inventory by id
+2023-08-12 19:45:12.411 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:45:42.416 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:46:12.428 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:46:42.435 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:47:12.441 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:47:42.454 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:47:44.398 _Could not fetch inventory by id
+2023-08-12 19:48:12.456 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:48:42.471 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:49:12.482 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:49:54.186 _HikariPool-1 - configuration:
+2023-08-12 19:49:54.197 _allowPoolSuspension.............false
+2023-08-12 19:49:54.198 _autoCommit......................true
+2023-08-12 19:49:54.198 _catalog.........................none
+2023-08-12 19:49:54.198 _connectionInitSql...............none
+2023-08-12 19:49:54.198 _connectionTestQuery.............none
+2023-08-12 19:49:54.200 _connectionTimeout...............30000
+2023-08-12 19:49:54.201 _dataSource......................none
+2023-08-12 19:49:54.201 _dataSourceClassName.............none
+2023-08-12 19:49:54.202 _dataSourceJNDI..................none
+2023-08-12 19:49:54.203 _dataSourceProperties............{password=<masked>}
+2023-08-12 19:49:54.203 _driverClassName.................none
+2023-08-12 19:49:54.203 _healthCheckProperties...........{}
+2023-08-12 19:49:54.203 _healthCheckRegistry.............none
+2023-08-12 19:49:54.203 _idleTimeout.....................600000
+2023-08-12 19:49:54.203 _initializationFailTimeout.......1
+2023-08-12 19:49:54.204 _isolateInternalQueries..........false
+2023-08-12 19:49:54.204 _jdbcUrl.........................jdbc:mysql://localhost:3306/inventorymanagement
+2023-08-12 19:49:54.204 _leakDetectionThreshold..........0
+2023-08-12 19:49:54.204 _maxLifetime.....................1800000
+2023-08-12 19:49:54.204 _maximumPoolSize.................10
+2023-08-12 19:49:54.204 _metricRegistry..................none
+2023-08-12 19:49:54.204 _metricsTrackerFactory...........none
+2023-08-12 19:49:54.204 _minimumIdle.....................10
+2023-08-12 19:49:54.205 _password........................<masked>
+2023-08-12 19:49:54.205 _poolName........................"HikariPool-1"
+2023-08-12 19:49:54.205 _readOnly........................false
+2023-08-12 19:49:54.205 _registerMbeans..................false
+2023-08-12 19:49:54.205 _scheduledExecutor...............none
+2023-08-12 19:49:54.206 _schema..........................none
+2023-08-12 19:49:54.206 _threadFactory...................internal
+2023-08-12 19:49:54.206 _transactionIsolation............default
+2023-08-12 19:49:54.206 _username........................"root"
+2023-08-12 19:49:54.206 _validationTimeout...............5000
+2023-08-12 19:49:54.214 _HikariPool-1 - Starting...
+2023-08-12 19:49:55.140 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16734d90
+2023-08-12 19:49:55.144 _HikariPool-1 - Start completed.
+2023-08-12 19:49:55.260 _HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2023-08-12 19:49:55.307 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@30cbc1ec
+2023-08-12 19:49:55.346 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71f6cbd7
+2023-08-12 19:49:55.391 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@40cd3bf5
+2023-08-12 19:49:55.437 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@11d93498
+2023-08-12 19:49:55.470 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1597c9e8
+2023-08-12 19:49:55.507 _got item by id: ItemCategoryService
+2023-08-12 19:49:55.509 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6057acaf
+2023-08-12 19:49:55.535 _got item by id: ItemLocationervice
+2023-08-12 19:49:55.535 _Fetched inventory by id
+2023-08-12 19:49:55.555 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1400c4c1
+2023-08-12 19:49:55.593 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7faf589f
+2023-08-12 19:49:55.637 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4ed92546
+2023-08-12 19:49:55.637 _HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:50:25.268 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:50:55.280 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:51:25.283 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:51:55.480 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:52:36.426 _HikariPool-1 - configuration:
+2023-08-12 19:52:36.436 _allowPoolSuspension.............false
+2023-08-12 19:52:36.436 _autoCommit......................true
+2023-08-12 19:52:36.436 _catalog.........................none
+2023-08-12 19:52:36.436 _connectionInitSql...............none
+2023-08-12 19:52:36.436 _connectionTestQuery.............none
+2023-08-12 19:52:36.438 _connectionTimeout...............30000
+2023-08-12 19:52:36.438 _dataSource......................none
+2023-08-12 19:52:36.438 _dataSourceClassName.............none
+2023-08-12 19:52:36.438 _dataSourceJNDI..................none
+2023-08-12 19:52:36.439 _dataSourceProperties............{password=<masked>}
+2023-08-12 19:52:36.439 _driverClassName.................none
+2023-08-12 19:52:36.439 _healthCheckProperties...........{}
+2023-08-12 19:52:36.440 _healthCheckRegistry.............none
+2023-08-12 19:52:36.440 _idleTimeout.....................600000
+2023-08-12 19:52:36.440 _initializationFailTimeout.......1
+2023-08-12 19:52:36.441 _isolateInternalQueries..........false
+2023-08-12 19:52:36.441 _jdbcUrl.........................jdbc:mysql://localhost:3306/inventorymanagement
+2023-08-12 19:52:36.441 _leakDetectionThreshold..........0
+2023-08-12 19:52:36.441 _maxLifetime.....................1800000
+2023-08-12 19:52:36.442 _maximumPoolSize.................10
+2023-08-12 19:52:36.442 _metricRegistry..................none
+2023-08-12 19:52:36.442 _metricsTrackerFactory...........none
+2023-08-12 19:52:36.442 _minimumIdle.....................10
+2023-08-12 19:52:36.442 _password........................<masked>
+2023-08-12 19:52:36.442 _poolName........................"HikariPool-1"
+2023-08-12 19:52:36.443 _readOnly........................false
+2023-08-12 19:52:36.443 _registerMbeans..................false
+2023-08-12 19:52:36.443 _scheduledExecutor...............none
+2023-08-12 19:52:36.443 _schema..........................none
+2023-08-12 19:52:36.443 _threadFactory...................internal
+2023-08-12 19:52:36.444 _transactionIsolation............default
+2023-08-12 19:52:36.444 _username........................"root"
+2023-08-12 19:52:36.444 _validationTimeout...............5000
+2023-08-12 19:52:36.453 _HikariPool-1 - Starting...
+2023-08-12 19:52:37.252 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@40c04c84
+2023-08-12 19:52:37.257 _HikariPool-1 - Start completed.
+2023-08-12 19:52:37.360 _HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2023-08-12 19:52:37.405 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@795bae75
+2023-08-12 19:52:37.467 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3866a44e
+2023-08-12 19:52:37.504 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@9149d8a
+2023-08-12 19:52:37.505 _got item by id: ItemCategoryService
+2023-08-12 19:52:37.527 _got item by id: ItemLocationervice
+2023-08-12 19:52:37.527 _Fetched inventory by id
+2023-08-12 19:52:37.567 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@58495b01
+2023-08-12 19:52:37.620 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c07e7f9
+2023-08-12 19:52:37.658 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@58cc26bc
+2023-08-12 19:52:37.715 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@549faf84
+2023-08-12 19:52:37.764 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@70344314
+2023-08-12 19:52:37.824 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4b5df21f
+2023-08-12 19:52:37.824 _HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:52:55.488 _got item by id: ItemCategoryService
+2023-08-12 19:52:55.490 _got item by id: ItemLocationervice
+2023-08-12 19:52:55.490 _Fetched inventory by id
+2023-08-12 19:53:07.371 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:53:37.384 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:53:51.469 _Fetching inventories by category
+2023-08-12 19:54:07.390 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:54:15.362 _Fetching inventories by category
+2023-08-12 19:54:37.403 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:55:07.407 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:55:37.418 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:56:22.626 _Fetching inventories by category
+2023-08-12 19:56:22.651 _HikariPool-1 - configuration:
+2023-08-12 19:56:22.658 _allowPoolSuspension.............false
+2023-08-12 19:56:22.659 _autoCommit......................true
+2023-08-12 19:56:22.659 _catalog.........................none
+2023-08-12 19:56:22.659 _connectionInitSql...............none
+2023-08-12 19:56:22.659 _connectionTestQuery.............none
+2023-08-12 19:56:22.661 _connectionTimeout...............30000
+2023-08-12 19:56:22.662 _dataSource......................none
+2023-08-12 19:56:22.662 _dataSourceClassName.............none
+2023-08-12 19:56:22.662 _dataSourceJNDI..................none
+2023-08-12 19:56:22.663 _dataSourceProperties............{password=<masked>}
+2023-08-12 19:56:22.663 _driverClassName.................none
+2023-08-12 19:56:22.663 _healthCheckProperties...........{}
+2023-08-12 19:56:22.664 _healthCheckRegistry.............none
+2023-08-12 19:56:22.664 _idleTimeout.....................600000
+2023-08-12 19:56:22.664 _initializationFailTimeout.......1
+2023-08-12 19:56:22.664 _isolateInternalQueries..........false
+2023-08-12 19:56:22.665 _jdbcUrl.........................jdbc:mysql://localhost:3306/inventorymanagement
+2023-08-12 19:56:22.665 _leakDetectionThreshold..........0
+2023-08-12 19:56:22.665 _maxLifetime.....................1800000
+2023-08-12 19:56:22.665 _maximumPoolSize.................10
+2023-08-12 19:56:22.665 _metricRegistry..................none
+2023-08-12 19:56:22.666 _metricsTrackerFactory...........none
+2023-08-12 19:56:22.666 _minimumIdle.....................10
+2023-08-12 19:56:22.666 _password........................<masked>
+2023-08-12 19:56:22.666 _poolName........................"HikariPool-1"
+2023-08-12 19:56:22.666 _readOnly........................false
+2023-08-12 19:56:22.666 _registerMbeans..................false
+2023-08-12 19:56:22.666 _scheduledExecutor...............none
+2023-08-12 19:56:22.666 _schema..........................none
+2023-08-12 19:56:22.666 _threadFactory...................internal
+2023-08-12 19:56:22.667 _transactionIsolation............default
+2023-08-12 19:56:22.667 _username........................"root"
+2023-08-12 19:56:22.667 _validationTimeout...............5000
+2023-08-12 19:56:22.674 _HikariPool-1 - Starting...
+2023-08-12 19:56:23.570 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4d6f44b0
+2023-08-12 19:56:23.575 _HikariPool-1 - Start completed.
+2023-08-12 19:56:23.682 _HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2023-08-12 19:56:23.721 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4641c2f5
+2023-08-12 19:56:23.767 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77cc8ce
+2023-08-12 19:56:23.813 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@36b14c73
+2023-08-12 19:56:23.858 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@67533781
+2023-08-12 19:56:23.861 _Failed to get inventories by category id from database: InventoryService
+2023-08-12 19:56:23.901 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@631d2c63
+2023-08-12 19:56:23.954 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2f682b30
+2023-08-12 19:56:23.991 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5f918655
+2023-08-12 19:56:24.029 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@469f8d9a
+2023-08-12 19:56:24.117 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6e44e91c
+2023-08-12 19:56:24.117 _HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:56:32.499 _Fetching inventories by category
+2023-08-12 19:56:32.502 _Failed to get inventories by category id from database: InventoryService
+2023-08-12 19:56:49.745 _Fetching inventories by category
+2023-08-12 19:56:49.749 _Failed to get inventories by category id from database: InventoryService
+2023-08-12 19:56:53.687 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:57:23.688 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:57:53.699 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:58:23.711 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:58:53.719 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 19:59:36.985 _Fetching inventories by category
+2023-08-12 19:59:37.009 _HikariPool-1 - configuration:
+2023-08-12 19:59:37.031 _allowPoolSuspension.............false
+2023-08-12 19:59:37.033 _autoCommit......................true
+2023-08-12 19:59:37.033 _catalog.........................none
+2023-08-12 19:59:37.033 _connectionInitSql...............none
+2023-08-12 19:59:37.034 _connectionTestQuery.............none
+2023-08-12 19:59:37.035 _connectionTimeout...............30000
+2023-08-12 19:59:37.035 _dataSource......................none
+2023-08-12 19:59:37.035 _dataSourceClassName.............none
+2023-08-12 19:59:37.035 _dataSourceJNDI..................none
+2023-08-12 19:59:37.036 _dataSourceProperties............{password=<masked>}
+2023-08-12 19:59:37.036 _driverClassName.................none
+2023-08-12 19:59:37.036 _healthCheckProperties...........{}
+2023-08-12 19:59:37.037 _healthCheckRegistry.............none
+2023-08-12 19:59:37.037 _idleTimeout.....................600000
+2023-08-12 19:59:37.037 _initializationFailTimeout.......1
+2023-08-12 19:59:37.037 _isolateInternalQueries..........false
+2023-08-12 19:59:37.037 _jdbcUrl.........................jdbc:mysql://localhost:3306/inventorymanagement
+2023-08-12 19:59:37.038 _leakDetectionThreshold..........0
+2023-08-12 19:59:37.038 _maxLifetime.....................1800000
+2023-08-12 19:59:37.038 _maximumPoolSize.................10
+2023-08-12 19:59:37.038 _metricRegistry..................none
+2023-08-12 19:59:37.038 _metricsTrackerFactory...........none
+2023-08-12 19:59:37.038 _minimumIdle.....................10
+2023-08-12 19:59:37.038 _password........................<masked>
+2023-08-12 19:59:37.038 _poolName........................"HikariPool-1"
+2023-08-12 19:59:37.039 _readOnly........................false
+2023-08-12 19:59:37.039 _registerMbeans..................false
+2023-08-12 19:59:37.039 _scheduledExecutor...............none
+2023-08-12 19:59:37.039 _schema..........................none
+2023-08-12 19:59:37.039 _threadFactory...................internal
+2023-08-12 19:59:37.039 _transactionIsolation............default
+2023-08-12 19:59:37.039 _username........................"root"
+2023-08-12 19:59:37.039 _validationTimeout...............5000
+2023-08-12 19:59:37.047 _HikariPool-1 - Starting...
+2023-08-12 19:59:37.876 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4d6f44b0
+2023-08-12 19:59:37.882 _HikariPool-1 - Start completed.
+2023-08-12 19:59:37.993 _HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2023-08-12 19:59:38.029 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@26cb1edb
+2023-08-12 19:59:38.059 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@67f614e0
+2023-08-12 19:59:38.182 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@56dbf21f
+2023-08-12 19:59:38.239 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7d9ebaf
+2023-08-12 19:59:38.284 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@39710cf
+2023-08-12 19:59:38.330 _got item by id: ItemCategoryService
+2023-08-12 19:59:38.353 _got item by id: ItemLocationervice
+2023-08-12 19:59:38.355 _got item by id: ItemCategoryService
+2023-08-12 19:59:38.357 _got item by id: ItemLocationervice
+2023-08-12 19:59:38.402 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@18299de5
+2023-08-12 19:59:38.438 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@303f1763
+2023-08-12 19:59:38.505 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7fb697c3
+2023-08-12 19:59:38.555 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@17b2bfdf
+2023-08-12 19:59:38.555 _HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:00:08.000 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:00:38.003 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:01:08.016 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:01:38.020 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:02:08.027 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:02:38.029 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:03:08.044 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:03:38.046 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:04:06.142 _Fetching inventories by category
+2023-08-12 20:04:06.149 _got item by id: ItemCategoryService
+2023-08-12 20:04:06.151 _got item by id: ItemLocationervice
+2023-08-12 20:04:06.153 _got item by id: ItemCategoryService
+2023-08-12 20:04:06.155 _got item by id: ItemLocationervice
+2023-08-12 20:04:08.059 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:04:24.745 _Fetching inventories by category
+2023-08-12 20:04:38.072 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:04:44.710 _Fetching inventories by category
+2023-08-12 20:04:44.715 _got item by id: ItemCategoryService
+2023-08-12 20:04:44.717 _got item by id: ItemLocationervice
+2023-08-12 20:04:44.718 _got item by id: ItemCategoryService
+2023-08-12 20:04:44.719 _got item by id: ItemLocationervice
+2023-08-12 20:05:08.077 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:05:20.827 _Fetching inventories by location
+2023-08-12 20:05:20.832 _got item by id: ItemCategoryService
+2023-08-12 20:05:20.835 _got item by id: ItemLocationervice
+2023-08-12 20:05:20.837 _got item by id: ItemCategoryService
+2023-08-12 20:05:20.839 _got item by id: ItemLocationervice
+2023-08-12 20:05:38.080 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:06:08.089 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:06:38.106 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:07:08.110 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:07:38.111 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:08:08.122 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:08:38.132 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:09:08.135 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:14:23.496 _Fetching inventories by location
+2023-08-12 20:14:23.530 _HikariPool-1 - configuration:
+2023-08-12 20:14:23.538 _allowPoolSuspension.............false
+2023-08-12 20:14:23.539 _autoCommit......................true
+2023-08-12 20:14:23.539 _catalog.........................none
+2023-08-12 20:14:23.539 _connectionInitSql...............none
+2023-08-12 20:14:23.539 _connectionTestQuery.............none
+2023-08-12 20:14:23.540 _connectionTimeout...............30000
+2023-08-12 20:14:23.541 _dataSource......................none
+2023-08-12 20:14:23.541 _dataSourceClassName.............none
+2023-08-12 20:14:23.541 _dataSourceJNDI..................none
+2023-08-12 20:14:23.541 _dataSourceProperties............{password=<masked>}
+2023-08-12 20:14:23.542 _driverClassName.................none
+2023-08-12 20:14:23.542 _healthCheckProperties...........{}
+2023-08-12 20:14:23.542 _healthCheckRegistry.............none
+2023-08-12 20:14:23.542 _idleTimeout.....................600000
+2023-08-12 20:14:23.542 _initializationFailTimeout.......1
+2023-08-12 20:14:23.542 _isolateInternalQueries..........false
+2023-08-12 20:14:23.542 _jdbcUrl.........................jdbc:mysql://localhost:3306/inventorymanagement
+2023-08-12 20:14:23.543 _leakDetectionThreshold..........0
+2023-08-12 20:14:23.543 _maxLifetime.....................1800000
+2023-08-12 20:14:23.543 _maximumPoolSize.................10
+2023-08-12 20:14:23.544 _metricRegistry..................none
+2023-08-12 20:14:23.544 _metricsTrackerFactory...........none
+2023-08-12 20:14:23.544 _minimumIdle.....................10
+2023-08-12 20:14:23.544 _password........................<masked>
+2023-08-12 20:14:23.545 _poolName........................"HikariPool-1"
+2023-08-12 20:14:23.545 _readOnly........................false
+2023-08-12 20:14:23.545 _registerMbeans..................false
+2023-08-12 20:14:23.545 _scheduledExecutor...............none
+2023-08-12 20:14:23.545 _schema..........................none
+2023-08-12 20:14:23.546 _threadFactory...................internal
+2023-08-12 20:14:23.546 _transactionIsolation............default
+2023-08-12 20:14:23.546 _username........................"root"
+2023-08-12 20:14:23.546 _validationTimeout...............5000
+2023-08-12 20:14:23.556 _HikariPool-1 - Starting...
+2023-08-12 20:14:24.280 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5dd6d9b4
+2023-08-12 20:14:24.284 _HikariPool-1 - Start completed.
+2023-08-12 20:14:24.389 _HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2023-08-12 20:14:24.457 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3f86d66
+2023-08-12 20:14:24.508 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@42c5675d
+2023-08-12 20:14:24.551 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@734d07e6
+2023-08-12 20:14:24.610 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@22ea9812
+2023-08-12 20:14:24.674 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@26a4c651
+2023-08-12 20:14:24.825 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77556f49
+2023-08-12 20:14:24.864 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@605ee1bf
+2023-08-12 20:14:24.952 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@42df1e90
+2023-08-12 20:14:25.022 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@74df48ca
+2023-08-12 20:14:25.023 _HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:14:34.916 _Fetching inventories by location
+2023-08-12 20:14:54.394 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:15:24.398 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:15:54.406 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:16:24.413 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:17:16.165 _Fetching inventories by location
+2023-08-12 20:17:16.191 _HikariPool-1 - configuration:
+2023-08-12 20:17:16.198 _allowPoolSuspension.............false
+2023-08-12 20:17:16.199 _autoCommit......................true
+2023-08-12 20:17:16.199 _catalog.........................none
+2023-08-12 20:17:16.199 _connectionInitSql...............none
+2023-08-12 20:17:16.199 _connectionTestQuery.............none
+2023-08-12 20:17:16.200 _connectionTimeout...............30000
+2023-08-12 20:17:16.201 _dataSource......................none
+2023-08-12 20:17:16.201 _dataSourceClassName.............none
+2023-08-12 20:17:16.201 _dataSourceJNDI..................none
+2023-08-12 20:17:16.201 _dataSourceProperties............{password=<masked>}
+2023-08-12 20:17:16.202 _driverClassName.................none
+2023-08-12 20:17:16.202 _healthCheckProperties...........{}
+2023-08-12 20:17:16.202 _healthCheckRegistry.............none
+2023-08-12 20:17:16.202 _idleTimeout.....................600000
+2023-08-12 20:17:16.202 _initializationFailTimeout.......1
+2023-08-12 20:17:16.202 _isolateInternalQueries..........false
+2023-08-12 20:17:16.202 _jdbcUrl.........................jdbc:mysql://localhost:3306/inventorymanagement
+2023-08-12 20:17:16.202 _leakDetectionThreshold..........0
+2023-08-12 20:17:16.203 _maxLifetime.....................1800000
+2023-08-12 20:17:16.203 _maximumPoolSize.................10
+2023-08-12 20:17:16.203 _metricRegistry..................none
+2023-08-12 20:17:16.203 _metricsTrackerFactory...........none
+2023-08-12 20:17:16.204 _minimumIdle.....................10
+2023-08-12 20:17:16.204 _password........................<masked>
+2023-08-12 20:17:16.205 _poolName........................"HikariPool-1"
+2023-08-12 20:17:16.205 _readOnly........................false
+2023-08-12 20:17:16.206 _registerMbeans..................false
+2023-08-12 20:17:16.206 _scheduledExecutor...............none
+2023-08-12 20:17:16.206 _schema..........................none
+2023-08-12 20:17:16.207 _threadFactory...................internal
+2023-08-12 20:17:16.207 _transactionIsolation............default
+2023-08-12 20:17:16.207 _username........................"root"
+2023-08-12 20:17:16.207 _validationTimeout...............5000
+2023-08-12 20:17:16.216 _HikariPool-1 - Starting...
+2023-08-12 20:17:17.100 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7e2723a7
+2023-08-12 20:17:17.104 _HikariPool-1 - Start completed.
+2023-08-12 20:17:17.205 _HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2023-08-12 20:17:17.280 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@29d377a6
+2023-08-12 20:17:17.291 _got item by id: ItemCategoryService
+2023-08-12 20:17:17.332 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@68ee7d9d
+2023-08-12 20:17:17.349 _got item by id: ItemLocationervice
+2023-08-12 20:17:17.356 _got item by id: ItemCategoryService
+2023-08-12 20:17:17.361 _got item by id: ItemLocationervice
+2023-08-12 20:17:17.380 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59cc940a
+2023-08-12 20:17:17.473 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@8c182d2
+2023-08-12 20:17:17.529 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@c8f7eba
+2023-08-12 20:17:17.619 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3c4ef4f0
+2023-08-12 20:17:17.727 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@26a1009b
+2023-08-12 20:17:17.769 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@58b3b8b8
+2023-08-12 20:17:17.841 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@415694a2
+2023-08-12 20:17:17.841 _HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:17:30.838 _Fetching inventories by location
+2023-08-12 20:17:30.842 _got item by id: ItemCategoryService
+2023-08-12 20:17:30.843 _got item by id: ItemLocationervice
+2023-08-12 20:17:30.846 _got item by id: ItemCategoryService
+2023-08-12 20:17:30.849 _got item by id: ItemLocationervice
+2023-08-12 20:17:47.209 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:18:17.214 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:18:47.228 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:19:17.235 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:19:23.753 _Fetching inventories by location and category
+2023-08-12 20:19:47.251 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:20:17.258 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:20:47.269 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:21:17.273 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:21:47.279 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:22:17.282 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:22:47.282 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:23:17.296 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:23:33.699 _Fetching inventories by location and category
+2023-08-12 20:23:47.310 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:24:17.319 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:24:47.321 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:24:53.183 _Fetching inventories by location and category
+2023-08-12 20:24:53.200 _got item by id: ItemCategoryService
+2023-08-12 20:24:53.201 _got item by id: ItemLocationervice
+2023-08-12 20:24:53.203 _got item by id: ItemCategoryService
+2023-08-12 20:24:53.224 _got item by id: ItemLocationervice
+2023-08-12 20:25:17.329 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:25:47.337 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:25:50.043 _Fetching inventories by location and category
+2023-08-12 20:25:50.049 _got item by id: ItemCategoryService
+2023-08-12 20:25:50.051 _got item by id: ItemLocationervice
+2023-08-12 20:25:50.055 _got item by id: ItemCategoryService
+2023-08-12 20:25:50.059 _got item by id: ItemLocationervice
+2023-08-12 20:26:17.344 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:26:47.364 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:27:50.066 _Fetching inventories by location and category
+2023-08-12 20:27:50.097 _HikariPool-1 - configuration:
+2023-08-12 20:27:50.107 _allowPoolSuspension.............false
+2023-08-12 20:27:50.107 _autoCommit......................true
+2023-08-12 20:27:50.107 _catalog.........................none
+2023-08-12 20:27:50.107 _connectionInitSql...............none
+2023-08-12 20:27:50.108 _connectionTestQuery.............none
+2023-08-12 20:27:50.109 _connectionTimeout...............30000
+2023-08-12 20:27:50.109 _dataSource......................none
+2023-08-12 20:27:50.110 _dataSourceClassName.............none
+2023-08-12 20:27:50.110 _dataSourceJNDI..................none
+2023-08-12 20:27:50.111 _dataSourceProperties............{password=<masked>}
+2023-08-12 20:27:50.111 _driverClassName.................none
+2023-08-12 20:27:50.111 _healthCheckProperties...........{}
+2023-08-12 20:27:50.111 _healthCheckRegistry.............none
+2023-08-12 20:27:50.111 _idleTimeout.....................600000
+2023-08-12 20:27:50.111 _initializationFailTimeout.......1
+2023-08-12 20:27:50.112 _isolateInternalQueries..........false
+2023-08-12 20:27:50.112 _jdbcUrl.........................jdbc:mysql://localhost:3306/inventorymanagement
+2023-08-12 20:27:50.112 _leakDetectionThreshold..........0
+2023-08-12 20:27:50.112 _maxLifetime.....................1800000
+2023-08-12 20:27:50.112 _maximumPoolSize.................10
+2023-08-12 20:27:50.112 _metricRegistry..................none
+2023-08-12 20:27:50.112 _metricsTrackerFactory...........none
+2023-08-12 20:27:50.113 _minimumIdle.....................10
+2023-08-12 20:27:50.113 _password........................<masked>
+2023-08-12 20:27:50.113 _poolName........................"HikariPool-1"
+2023-08-12 20:27:50.113 _readOnly........................false
+2023-08-12 20:27:50.113 _registerMbeans..................false
+2023-08-12 20:27:50.114 _scheduledExecutor...............none
+2023-08-12 20:27:50.114 _schema..........................none
+2023-08-12 20:27:50.114 _threadFactory...................internal
+2023-08-12 20:27:50.114 _transactionIsolation............default
+2023-08-12 20:27:50.114 _username........................"root"
+2023-08-12 20:27:50.114 _validationTimeout...............5000
+2023-08-12 20:27:50.126 _HikariPool-1 - Starting...
+2023-08-12 20:27:50.997 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b5867eb
+2023-08-12 20:27:51.001 _HikariPool-1 - Start completed.
+2023-08-12 20:27:51.114 _HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=1)
+2023-08-12 20:27:51.143 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15f5f063
+2023-08-12 20:27:51.151 _got item by id: ItemCategoryService
+2023-08-12 20:27:51.175 _got item by id: ItemLocationervice
+2023-08-12 20:27:51.177 _got item by id: ItemCategoryService
+2023-08-12 20:27:51.179 _got item by id: ItemLocationervice
+2023-08-12 20:27:51.195 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@54c8fa58
+2023-08-12 20:27:51.250 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65d60969
+2023-08-12 20:27:51.423 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@34e70517
+2023-08-12 20:27:51.485 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@30a9dd41
+2023-08-12 20:27:51.539 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@23acd10e
+2023-08-12 20:27:51.642 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@34517bdc
+2023-08-12 20:27:51.724 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1448ff0b
+2023-08-12 20:27:51.795 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@699ee39
+2023-08-12 20:27:59.099 _Fetching inventories by location and category
+2023-08-12 20:27:59.104 _got item by id: ItemCategoryService
+2023-08-12 20:27:59.106 _got item by id: ItemLocationervice
+2023-08-12 20:27:59.108 _got item by id: ItemCategoryService
+2023-08-12 20:27:59.110 _got item by id: ItemLocationervice
+2023-08-12 20:28:21.125 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:28:51.138 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:29:21.142 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:29:51.155 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:30:21.164 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:30:51.180 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:31:21.183 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:31:51.188 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:32:21.189 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:32:51.191 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:32:59.462 _Failed to add new inventory item: For input string: "Laptop"
+2023-08-12 20:32:59.462 _Adding new inventory item
+2023-08-12 20:33:21.199 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:33:43.400 _Failed to add new inventory item: For input string: "Laptop"
+2023-08-12 20:33:43.401 _Adding new inventory item
+2023-08-12 20:33:51.203 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:34:21.206 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:34:51.214 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:35:21.223 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:36:11.238 _HikariPool-1 - configuration:
+2023-08-12 20:36:11.247 _allowPoolSuspension.............false
+2023-08-12 20:36:11.247 _autoCommit......................true
+2023-08-12 20:36:11.248 _catalog.........................none
+2023-08-12 20:36:11.249 _connectionInitSql...............none
+2023-08-12 20:36:11.250 _connectionTestQuery.............none
+2023-08-12 20:36:11.252 _connectionTimeout...............30000
+2023-08-12 20:36:11.252 _dataSource......................none
+2023-08-12 20:36:11.252 _dataSourceClassName.............none
+2023-08-12 20:36:11.253 _dataSourceJNDI..................none
+2023-08-12 20:36:11.253 _dataSourceProperties............{password=<masked>}
+2023-08-12 20:36:11.253 _driverClassName.................none
+2023-08-12 20:36:11.254 _healthCheckProperties...........{}
+2023-08-12 20:36:11.254 _healthCheckRegistry.............none
+2023-08-12 20:36:11.254 _idleTimeout.....................600000
+2023-08-12 20:36:11.254 _initializationFailTimeout.......1
+2023-08-12 20:36:11.254 _isolateInternalQueries..........false
+2023-08-12 20:36:11.254 _jdbcUrl.........................jdbc:mysql://localhost:3306/inventorymanagement
+2023-08-12 20:36:11.255 _leakDetectionThreshold..........0
+2023-08-12 20:36:11.255 _maxLifetime.....................1800000
+2023-08-12 20:36:11.255 _maximumPoolSize.................10
+2023-08-12 20:36:11.255 _metricRegistry..................none
+2023-08-12 20:36:11.255 _metricsTrackerFactory...........none
+2023-08-12 20:36:11.255 _minimumIdle.....................10
+2023-08-12 20:36:11.255 _password........................<masked>
+2023-08-12 20:36:11.255 _poolName........................"HikariPool-1"
+2023-08-12 20:36:11.256 _readOnly........................false
+2023-08-12 20:36:11.256 _registerMbeans..................false
+2023-08-12 20:36:11.256 _scheduledExecutor...............none
+2023-08-12 20:36:11.256 _schema..........................none
+2023-08-12 20:36:11.256 _threadFactory...................internal
+2023-08-12 20:36:11.256 _transactionIsolation............default
+2023-08-12 20:36:11.256 _username........................"root"
+2023-08-12 20:36:11.256 _validationTimeout...............5000
+2023-08-12 20:36:11.266 _HikariPool-1 - Starting...
+2023-08-12 20:36:12.191 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4cf2b110
+2023-08-12 20:36:12.207 _HikariPool-1 - Start completed.
+2023-08-12 20:36:12.300 _Failed to add new inventory item: Parameter index out of range (5 > number of parameters, which is 4).
+2023-08-12 20:36:12.320 _Adding new inventory item
+2023-08-12 20:36:12.335 _HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2023-08-12 20:36:12.424 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e2c1514
+2023-08-12 20:36:12.491 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f111f2f
+2023-08-12 20:36:12.558 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e547631
+2023-08-12 20:36:12.607 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6f3ee060
+2023-08-12 20:36:12.650 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b707bef
+2023-08-12 20:36:12.776 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3606b5c7
+2023-08-12 20:36:12.905 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@8a9777
+2023-08-12 20:36:12.946 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@270b8b15
+2023-08-12 20:36:13.052 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7296cac6
+2023-08-12 20:36:13.053 _HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:36:42.350 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:37:12.363 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:37:42.395 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:38:12.409 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:38:42.421 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:39:12.423 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:39:55.346 _HikariPool-1 - configuration:
+2023-08-12 20:39:55.359 _allowPoolSuspension.............false
+2023-08-12 20:39:55.359 _autoCommit......................true
+2023-08-12 20:39:55.360 _catalog.........................none
+2023-08-12 20:39:55.360 _connectionInitSql...............none
+2023-08-12 20:39:55.360 _connectionTestQuery.............none
+2023-08-12 20:39:55.362 _connectionTimeout...............30000
+2023-08-12 20:39:55.362 _dataSource......................none
+2023-08-12 20:39:55.362 _dataSourceClassName.............none
+2023-08-12 20:39:55.363 _dataSourceJNDI..................none
+2023-08-12 20:39:55.363 _dataSourceProperties............{password=<masked>}
+2023-08-12 20:39:55.364 _driverClassName.................none
+2023-08-12 20:39:55.364 _healthCheckProperties...........{}
+2023-08-12 20:39:55.364 _healthCheckRegistry.............none
+2023-08-12 20:39:55.364 _idleTimeout.....................600000
+2023-08-12 20:39:55.364 _initializationFailTimeout.......1
+2023-08-12 20:39:55.364 _isolateInternalQueries..........false
+2023-08-12 20:39:55.365 _jdbcUrl.........................jdbc:mysql://localhost:3306/inventorymanagement
+2023-08-12 20:39:55.365 _leakDetectionThreshold..........0
+2023-08-12 20:39:55.365 _maxLifetime.....................1800000
+2023-08-12 20:39:55.365 _maximumPoolSize.................10
+2023-08-12 20:39:55.365 _metricRegistry..................none
+2023-08-12 20:39:55.366 _metricsTrackerFactory...........none
+2023-08-12 20:39:55.366 _minimumIdle.....................10
+2023-08-12 20:39:55.366 _password........................<masked>
+2023-08-12 20:39:55.366 _poolName........................"HikariPool-1"
+2023-08-12 20:39:55.366 _readOnly........................false
+2023-08-12 20:39:55.366 _registerMbeans..................false
+2023-08-12 20:39:55.366 _scheduledExecutor...............none
+2023-08-12 20:39:55.367 _schema..........................none
+2023-08-12 20:39:55.367 _threadFactory...................internal
+2023-08-12 20:39:55.367 _transactionIsolation............default
+2023-08-12 20:39:55.367 _username........................"root"
+2023-08-12 20:39:55.367 _validationTimeout...............5000
+2023-08-12 20:39:55.377 _HikariPool-1 - Starting...
+2023-08-12 20:39:56.157 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e77d287
+2023-08-12 20:39:56.161 _HikariPool-1 - Start completed.
+2023-08-12 20:39:56.228 _Failed to add new inventory item: For input string: "Laptop"
+2023-08-12 20:39:56.247 _Adding new inventory item
+2023-08-12 20:39:56.264 _HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2023-08-12 20:39:56.373 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13a9f15f
+2023-08-12 20:39:56.445 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5294fb64
+2023-08-12 20:39:56.499 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@638c4a10
+2023-08-12 20:39:56.625 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32bb042b
+2023-08-12 20:39:56.698 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@36f5da39
+2023-08-12 20:39:56.778 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5fe1a00f
+2023-08-12 20:39:56.832 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33924414
+2023-08-12 20:39:56.872 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f762af3
+2023-08-12 20:39:56.907 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@62944e7
+2023-08-12 20:39:56.907 _HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:40:26.278 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:40:56.287 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:41:26.293 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:41:56.303 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:42:26.309 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:42:56.313 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:43:26.314 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:44:08.508 _HikariPool-1 - configuration:
+2023-08-12 20:44:08.528 _allowPoolSuspension.............false
+2023-08-12 20:44:08.528 _autoCommit......................true
+2023-08-12 20:44:08.529 _catalog.........................none
+2023-08-12 20:44:08.529 _connectionInitSql...............none
+2023-08-12 20:44:08.529 _connectionTestQuery.............none
+2023-08-12 20:44:08.531 _connectionTimeout...............30000
+2023-08-12 20:44:08.532 _dataSource......................none
+2023-08-12 20:44:08.532 _dataSourceClassName.............none
+2023-08-12 20:44:08.532 _dataSourceJNDI..................none
+2023-08-12 20:44:08.533 _dataSourceProperties............{password=<masked>}
+2023-08-12 20:44:08.533 _driverClassName.................none
+2023-08-12 20:44:08.533 _healthCheckProperties...........{}
+2023-08-12 20:44:08.534 _healthCheckRegistry.............none
+2023-08-12 20:44:08.534 _idleTimeout.....................600000
+2023-08-12 20:44:08.534 _initializationFailTimeout.......1
+2023-08-12 20:44:08.535 _isolateInternalQueries..........false
+2023-08-12 20:44:08.535 _jdbcUrl.........................jdbc:mysql://localhost:3306/inventorymanagement
+2023-08-12 20:44:08.535 _leakDetectionThreshold..........0
+2023-08-12 20:44:08.536 _maxLifetime.....................1800000
+2023-08-12 20:44:08.536 _maximumPoolSize.................10
+2023-08-12 20:44:08.536 _metricRegistry..................none
+2023-08-12 20:44:08.536 _metricsTrackerFactory...........none
+2023-08-12 20:44:08.537 _minimumIdle.....................10
+2023-08-12 20:44:08.537 _password........................<masked>
+2023-08-12 20:44:08.537 _poolName........................"HikariPool-1"
+2023-08-12 20:44:08.537 _readOnly........................false
+2023-08-12 20:44:08.538 _registerMbeans..................false
+2023-08-12 20:44:08.538 _scheduledExecutor...............none
+2023-08-12 20:44:08.538 _schema..........................none
+2023-08-12 20:44:08.538 _threadFactory...................internal
+2023-08-12 20:44:08.539 _transactionIsolation............default
+2023-08-12 20:44:08.539 _username........................"root"
+2023-08-12 20:44:08.542 _validationTimeout...............5000
+2023-08-12 20:44:08.555 _HikariPool-1 - Starting...
+2023-08-12 20:44:09.425 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2af18c9d
+2023-08-12 20:44:09.429 _HikariPool-1 - Start completed.
+2023-08-12 20:44:09.533 _HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=1)
+2023-08-12 20:44:09.546 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@14f40142
+2023-08-12 20:44:09.582 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55c90b79
+2023-08-12 20:44:09.660 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@64d6f8b8
+2023-08-12 20:44:09.914 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@35e6f436
+2023-08-12 20:44:09.986 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@31a82d61
+2023-08-12 20:44:10.130 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63e33aa3
+2023-08-12 20:44:10.215 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4924a11f
+2023-08-12 20:44:10.296 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1775aff5
+2023-08-12 20:44:10.364 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@78a2d6a0
+2023-08-12 20:44:10.827 _Failed to get category ID by name: Table 'inventorymanagement.item_category' doesn't exist
+2023-08-12 20:44:10.841 _Failed to get location ID by name: Table 'inventorymanagement.item_location' doesn't exist
+2023-08-12 20:44:11.317 _Failed to add new inventory item: Cannot add or update a child row: a foreign key constraint fails (`inventorymanagement`.`inventory`, CONSTRAINT `inventory_ibfk_1` FOREIGN KEY (`item_category_id`) REFERENCES `itemcategory` (`id`))
+2023-08-12 20:44:11.326 _Adding new inventory item
+2023-08-12 20:44:39.536 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:45:30.637 _HikariPool-1 - configuration:
+2023-08-12 20:45:30.652 _allowPoolSuspension.............false
+2023-08-12 20:45:30.653 _autoCommit......................true
+2023-08-12 20:45:30.653 _catalog.........................none
+2023-08-12 20:45:30.653 _connectionInitSql...............none
+2023-08-12 20:45:30.654 _connectionTestQuery.............none
+2023-08-12 20:45:30.656 _connectionTimeout...............30000
+2023-08-12 20:45:30.656 _dataSource......................none
+2023-08-12 20:45:30.656 _dataSourceClassName.............none
+2023-08-12 20:45:30.656 _dataSourceJNDI..................none
+2023-08-12 20:45:30.657 _dataSourceProperties............{password=<masked>}
+2023-08-12 20:45:30.657 _driverClassName.................none
+2023-08-12 20:45:30.658 _healthCheckProperties...........{}
+2023-08-12 20:45:30.658 _healthCheckRegistry.............none
+2023-08-12 20:45:30.658 _idleTimeout.....................600000
+2023-08-12 20:45:30.658 _initializationFailTimeout.......1
+2023-08-12 20:45:30.659 _isolateInternalQueries..........false
+2023-08-12 20:45:30.662 _jdbcUrl.........................jdbc:mysql://localhost:3306/inventorymanagement
+2023-08-12 20:45:30.662 _leakDetectionThreshold..........0
+2023-08-12 20:45:30.662 _maxLifetime.....................1800000
+2023-08-12 20:45:30.663 _maximumPoolSize.................10
+2023-08-12 20:45:30.663 _metricRegistry..................none
+2023-08-12 20:45:30.663 _metricsTrackerFactory...........none
+2023-08-12 20:45:30.663 _minimumIdle.....................10
+2023-08-12 20:45:30.663 _password........................<masked>
+2023-08-12 20:45:30.664 _poolName........................"HikariPool-1"
+2023-08-12 20:45:30.664 _readOnly........................false
+2023-08-12 20:45:30.664 _registerMbeans..................false
+2023-08-12 20:45:30.664 _scheduledExecutor...............none
+2023-08-12 20:45:30.664 _schema..........................none
+2023-08-12 20:45:30.664 _threadFactory...................internal
+2023-08-12 20:45:30.664 _transactionIsolation............default
+2023-08-12 20:45:30.664 _username........................"root"
+2023-08-12 20:45:30.664 _validationTimeout...............5000
+2023-08-12 20:45:30.678 _HikariPool-1 - Starting...
+2023-08-12 20:45:31.488 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1d833c18
+2023-08-12 20:45:31.494 _HikariPool-1 - Start completed.
+2023-08-12 20:45:31.589 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1004294
+2023-08-12 20:45:31.597 _HikariPool-1 - Pool stats (total=2, active=2, idle=0, waiting=0)
+2023-08-12 20:45:31.666 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@403d48af
+2023-08-12 20:45:31.738 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71374acb
+2023-08-12 20:45:31.814 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2012b7e0
+2023-08-12 20:45:31.869 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@245c6b43
+2023-08-12 20:45:31.923 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ca7f11d
+2023-08-12 20:45:32.011 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4909cc5f
+2023-08-12 20:45:32.169 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4753c07a
+2023-08-12 20:45:32.266 _Failed to retrieve generated ID for new inventory item
+2023-08-12 20:45:32.279 _Adding new inventory item
+2023-08-12 20:45:32.365 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@bf993c7
+2023-08-12 20:45:32.365 _HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:46:01.613 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:46:31.615 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:47:01.615 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:47:42.087 _HikariPool-1 - configuration:
+2023-08-12 20:47:42.097 _allowPoolSuspension.............false
+2023-08-12 20:47:42.097 _autoCommit......................true
+2023-08-12 20:47:42.098 _catalog.........................none
+2023-08-12 20:47:42.098 _connectionInitSql...............none
+2023-08-12 20:47:42.098 _connectionTestQuery.............none
+2023-08-12 20:47:42.101 _connectionTimeout...............30000
+2023-08-12 20:47:42.102 _dataSource......................none
+2023-08-12 20:47:42.103 _dataSourceClassName.............none
+2023-08-12 20:47:42.103 _dataSourceJNDI..................none
+2023-08-12 20:47:42.104 _dataSourceProperties............{password=<masked>}
+2023-08-12 20:47:42.104 _driverClassName.................none
+2023-08-12 20:47:42.104 _healthCheckProperties...........{}
+2023-08-12 20:47:42.104 _healthCheckRegistry.............none
+2023-08-12 20:47:42.105 _idleTimeout.....................600000
+2023-08-12 20:47:42.105 _initializationFailTimeout.......1
+2023-08-12 20:47:42.105 _isolateInternalQueries..........false
+2023-08-12 20:47:42.105 _jdbcUrl.........................jdbc:mysql://localhost:3306/inventorymanagement
+2023-08-12 20:47:42.106 _leakDetectionThreshold..........0
+2023-08-12 20:47:42.106 _maxLifetime.....................1800000
+2023-08-12 20:47:42.106 _maximumPoolSize.................10
+2023-08-12 20:47:42.106 _metricRegistry..................none
+2023-08-12 20:47:42.107 _metricsTrackerFactory...........none
+2023-08-12 20:47:42.107 _minimumIdle.....................10
+2023-08-12 20:47:42.107 _password........................<masked>
+2023-08-12 20:47:42.107 _poolName........................"HikariPool-1"
+2023-08-12 20:47:42.107 _readOnly........................false
+2023-08-12 20:47:42.108 _registerMbeans..................false
+2023-08-12 20:47:42.108 _scheduledExecutor...............none
+2023-08-12 20:47:42.108 _schema..........................none
+2023-08-12 20:47:42.108 _threadFactory...................internal
+2023-08-12 20:47:42.108 _transactionIsolation............default
+2023-08-12 20:47:42.108 _username........................"root"
+2023-08-12 20:47:42.108 _validationTimeout...............5000
+2023-08-12 20:47:42.115 _HikariPool-1 - Starting...
+2023-08-12 20:47:43.103 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1d833c18
+2023-08-12 20:47:43.106 _HikariPool-1 - Start completed.
+2023-08-12 20:47:43.207 _HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=1)
+2023-08-12 20:47:43.228 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d5748d8
+2023-08-12 20:47:43.344 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1c6a42e3
+2023-08-12 20:47:43.426 _Failed to add new inventory item: Duplicate entry '8008' for key 'inventory.PRIMARY'
+2023-08-12 20:47:43.437 _Adding new inventory item
+2023-08-12 20:47:43.487 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2dbcdbd1
+2023-08-12 20:47:43.574 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c45bdac
+2023-08-12 20:47:43.623 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@780ba550
+2023-08-12 20:47:43.671 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ac8049f
+2023-08-12 20:47:43.730 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@60a9e034
+2023-08-12 20:47:43.774 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@b4796d6
+2023-08-12 20:47:43.878 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e20fdc6
+2023-08-12 20:48:13.219 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:48:43.223 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:49:20.932 _HikariPool-1 - configuration:
+2023-08-12 20:49:20.949 _allowPoolSuspension.............false
+2023-08-12 20:49:20.950 _autoCommit......................true
+2023-08-12 20:49:20.950 _catalog.........................none
+2023-08-12 20:49:20.950 _connectionInitSql...............none
+2023-08-12 20:49:20.950 _connectionTestQuery.............none
+2023-08-12 20:49:20.953 _connectionTimeout...............30000
+2023-08-12 20:49:20.953 _dataSource......................none
+2023-08-12 20:49:20.953 _dataSourceClassName.............none
+2023-08-12 20:49:20.953 _dataSourceJNDI..................none
+2023-08-12 20:49:20.954 _dataSourceProperties............{password=<masked>}
+2023-08-12 20:49:20.954 _driverClassName.................none
+2023-08-12 20:49:20.955 _healthCheckProperties...........{}
+2023-08-12 20:49:20.955 _healthCheckRegistry.............none
+2023-08-12 20:49:20.955 _idleTimeout.....................600000
+2023-08-12 20:49:20.955 _initializationFailTimeout.......1
+2023-08-12 20:49:20.955 _isolateInternalQueries..........false
+2023-08-12 20:49:20.955 _jdbcUrl.........................jdbc:mysql://localhost:3306/inventorymanagement
+2023-08-12 20:49:20.955 _leakDetectionThreshold..........0
+2023-08-12 20:49:20.956 _maxLifetime.....................1800000
+2023-08-12 20:49:20.956 _maximumPoolSize.................10
+2023-08-12 20:49:20.956 _metricRegistry..................none
+2023-08-12 20:49:20.956 _metricsTrackerFactory...........none
+2023-08-12 20:49:20.956 _minimumIdle.....................10
+2023-08-12 20:49:20.956 _password........................<masked>
+2023-08-12 20:49:20.956 _poolName........................"HikariPool-1"
+2023-08-12 20:49:20.957 _readOnly........................false
+2023-08-12 20:49:20.957 _registerMbeans..................false
+2023-08-12 20:49:20.957 _scheduledExecutor...............none
+2023-08-12 20:49:20.957 _schema..........................none
+2023-08-12 20:49:20.958 _threadFactory...................internal
+2023-08-12 20:49:20.958 _transactionIsolation............default
+2023-08-12 20:49:20.958 _username........................"root"
+2023-08-12 20:49:20.958 _validationTimeout...............5000
+2023-08-12 20:49:20.972 _HikariPool-1 - Starting...
+2023-08-12 20:49:21.868 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1fdcc834
+2023-08-12 20:49:21.872 _HikariPool-1 - Start completed.
+2023-08-12 20:49:21.977 _HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=1)
+2023-08-12 20:49:22.033 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6a59fe48
+2023-08-12 20:49:22.080 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b64f473
+2023-08-12 20:49:22.146 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1a05dce7
+2023-08-12 20:49:22.248 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4b4b0b3c
+2023-08-12 20:49:22.298 _Failed to add new inventory item: Parameter index out of range (5 > number of parameters, which is 4).
+2023-08-12 20:49:22.306 _Adding new inventory item
+2023-08-12 20:49:22.370 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4f05b4d6
+2023-08-12 20:49:22.452 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4bcd20ad
+2023-08-12 20:49:22.517 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57c276e9
+2023-08-12 20:49:22.603 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5deaa50d
+2023-08-12 20:49:22.710 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32cfdb2c
+2023-08-12 20:49:51.994 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:50:22.006 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:50:52.007 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:51:22.010 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:54:38.496 _HikariPool-1 - configuration:
+2023-08-12 20:54:38.506 _allowPoolSuspension.............false
+2023-08-12 20:54:38.506 _autoCommit......................true
+2023-08-12 20:54:38.506 _catalog.........................none
+2023-08-12 20:54:38.506 _connectionInitSql...............none
+2023-08-12 20:54:38.507 _connectionTestQuery.............none
+2023-08-12 20:54:38.508 _connectionTimeout...............30000
+2023-08-12 20:54:38.508 _dataSource......................none
+2023-08-12 20:54:38.508 _dataSourceClassName.............none
+2023-08-12 20:54:38.508 _dataSourceJNDI..................none
+2023-08-12 20:54:38.511 _dataSourceProperties............{password=<masked>}
+2023-08-12 20:54:38.511 _driverClassName.................none
+2023-08-12 20:54:38.511 _healthCheckProperties...........{}
+2023-08-12 20:54:38.511 _healthCheckRegistry.............none
+2023-08-12 20:54:38.512 _idleTimeout.....................600000
+2023-08-12 20:54:38.512 _initializationFailTimeout.......1
+2023-08-12 20:54:38.512 _isolateInternalQueries..........false
+2023-08-12 20:54:38.512 _jdbcUrl.........................jdbc:mysql://localhost:3306/inventorymanagement
+2023-08-12 20:54:38.512 _leakDetectionThreshold..........0
+2023-08-12 20:54:38.512 _maxLifetime.....................1800000
+2023-08-12 20:54:38.512 _maximumPoolSize.................10
+2023-08-12 20:54:38.513 _metricRegistry..................none
+2023-08-12 20:54:38.513 _metricsTrackerFactory...........none
+2023-08-12 20:54:38.513 _minimumIdle.....................10
+2023-08-12 20:54:38.513 _password........................<masked>
+2023-08-12 20:54:38.513 _poolName........................"HikariPool-1"
+2023-08-12 20:54:38.513 _readOnly........................false
+2023-08-12 20:54:38.513 _registerMbeans..................false
+2023-08-12 20:54:38.514 _scheduledExecutor...............none
+2023-08-12 20:54:38.514 _schema..........................none
+2023-08-12 20:54:38.514 _threadFactory...................internal
+2023-08-12 20:54:38.514 _transactionIsolation............default
+2023-08-12 20:54:38.514 _username........................"root"
+2023-08-12 20:54:38.514 _validationTimeout...............5000
+2023-08-12 20:54:38.522 _HikariPool-1 - Starting...
+2023-08-12 20:54:39.304 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b815432
+2023-08-12 20:54:39.307 _HikariPool-1 - Start completed.
+2023-08-12 20:54:39.411 _HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=1)
+2023-08-12 20:54:39.451 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6bf196ba
+2023-08-12 20:54:39.530 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2acc9c81
+2023-08-12 20:54:39.677 _Added new inventory item with ID: 8009
+2023-08-12 20:54:39.687 _Adding new inventory item
+2023-08-12 20:54:39.704 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1bac15dd
+2023-08-12 20:54:39.763 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4ae363ce
+2023-08-12 20:54:39.850 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4eaddd84
+2023-08-12 20:54:39.921 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a57c9d6
+2023-08-12 20:54:39.968 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c248bac
+2023-08-12 20:54:40.087 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7760ca2b
+2023-08-12 20:54:40.142 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a239549
+2023-08-12 20:55:09.423 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:55:39.431 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:56:09.443 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:56:39.452 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:57:09.457 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:57:39.472 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:58:42.765 _HikariPool-1 - configuration:
+2023-08-12 20:58:42.782 _allowPoolSuspension.............false
+2023-08-12 20:58:42.783 _autoCommit......................true
+2023-08-12 20:58:42.783 _catalog.........................none
+2023-08-12 20:58:42.783 _connectionInitSql...............none
+2023-08-12 20:58:42.784 _connectionTestQuery.............none
+2023-08-12 20:58:42.788 _connectionTimeout...............30000
+2023-08-12 20:58:42.789 _dataSource......................none
+2023-08-12 20:58:42.789 _dataSourceClassName.............none
+2023-08-12 20:58:42.789 _dataSourceJNDI..................none
+2023-08-12 20:58:42.790 _dataSourceProperties............{password=<masked>}
+2023-08-12 20:58:42.790 _driverClassName.................none
+2023-08-12 20:58:42.791 _healthCheckProperties...........{}
+2023-08-12 20:58:42.791 _healthCheckRegistry.............none
+2023-08-12 20:58:42.791 _idleTimeout.....................600000
+2023-08-12 20:58:42.791 _initializationFailTimeout.......1
+2023-08-12 20:58:42.792 _isolateInternalQueries..........false
+2023-08-12 20:58:42.793 _jdbcUrl.........................jdbc:mysql://localhost:3306/inventorymanagement
+2023-08-12 20:58:42.793 _leakDetectionThreshold..........0
+2023-08-12 20:58:42.793 _maxLifetime.....................1800000
+2023-08-12 20:58:42.794 _maximumPoolSize.................10
+2023-08-12 20:58:42.794 _metricRegistry..................none
+2023-08-12 20:58:42.794 _metricsTrackerFactory...........none
+2023-08-12 20:58:42.795 _minimumIdle.....................10
+2023-08-12 20:58:42.795 _password........................<masked>
+2023-08-12 20:58:42.795 _poolName........................"HikariPool-1"
+2023-08-12 20:58:42.795 _readOnly........................false
+2023-08-12 20:58:42.796 _registerMbeans..................false
+2023-08-12 20:58:42.796 _scheduledExecutor...............none
+2023-08-12 20:58:42.796 _schema..........................none
+2023-08-12 20:58:42.797 _threadFactory...................internal
+2023-08-12 20:58:42.797 _transactionIsolation............default
+2023-08-12 20:58:42.797 _username........................"root"
+2023-08-12 20:58:42.798 _validationTimeout...............5000
+2023-08-12 20:58:42.838 _HikariPool-1 - Starting...
+2023-08-12 20:58:43.684 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1028a72d
+2023-08-12 20:58:43.689 _HikariPool-1 - Start completed.
+2023-08-12 20:58:43.792 _HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=1)
+2023-08-12 20:58:43.859 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6bc9acfa
+2023-08-12 20:58:43.921 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2af4a6c1
+2023-08-12 20:58:44.031 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b940f87
+2023-08-12 20:58:44.270 _Added new inventory item with ID: 8010
+2023-08-12 20:58:44.277 _Adding new inventory item
+2023-08-12 20:58:44.379 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4adb598e
+2023-08-12 20:58:44.450 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e95e7e4
+2023-08-12 20:58:44.491 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b8fc619
+2023-08-12 20:58:44.575 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@420aeee8
+2023-08-12 20:58:44.677 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@365645f0
+2023-08-12 20:58:44.895 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ced7060
+2023-08-12 20:59:13.799 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:59:43.809 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 20:59:59.677 _Updating inventory
+2023-08-12 20:59:59.679 _Failed to update inventory with ID 8010: For input string: "Updated Category"
+2023-08-12 20:59:59.679 _Inventory updated
+2023-08-12 21:00:13.813 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:00:43.817 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:01:13.818 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:01:43.823 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:02:13.837 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:02:43.851 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:03:13.859 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:03:43.861 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:04:13.865 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:04:43.879 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:05:13.890 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:05:43.926 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:06:13.997 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:06:44.013 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:07:14.017 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:07:44.017 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:08:33.255 _Updating inventory
+2023-08-12 21:08:33.284 _HikariPool-1 - configuration:
+2023-08-12 21:08:33.291 _allowPoolSuspension.............false
+2023-08-12 21:08:33.292 _autoCommit......................true
+2023-08-12 21:08:33.292 _catalog.........................none
+2023-08-12 21:08:33.292 _connectionInitSql...............none
+2023-08-12 21:08:33.292 _connectionTestQuery.............none
+2023-08-12 21:08:33.294 _connectionTimeout...............30000
+2023-08-12 21:08:33.296 _dataSource......................none
+2023-08-12 21:08:33.297 _dataSourceClassName.............none
+2023-08-12 21:08:33.297 _dataSourceJNDI..................none
+2023-08-12 21:08:33.298 _dataSourceProperties............{password=<masked>}
+2023-08-12 21:08:33.298 _driverClassName.................none
+2023-08-12 21:08:33.298 _healthCheckProperties...........{}
+2023-08-12 21:08:33.298 _healthCheckRegistry.............none
+2023-08-12 21:08:33.299 _idleTimeout.....................600000
+2023-08-12 21:08:33.299 _initializationFailTimeout.......1
+2023-08-12 21:08:33.299 _isolateInternalQueries..........false
+2023-08-12 21:08:33.299 _jdbcUrl.........................jdbc:mysql://localhost:3306/inventorymanagement
+2023-08-12 21:08:33.299 _leakDetectionThreshold..........0
+2023-08-12 21:08:33.299 _maxLifetime.....................1800000
+2023-08-12 21:08:33.300 _maximumPoolSize.................10
+2023-08-12 21:08:33.300 _metricRegistry..................none
+2023-08-12 21:08:33.300 _metricsTrackerFactory...........none
+2023-08-12 21:08:33.300 _minimumIdle.....................10
+2023-08-12 21:08:33.300 _password........................<masked>
+2023-08-12 21:08:33.300 _poolName........................"HikariPool-1"
+2023-08-12 21:08:33.300 _readOnly........................false
+2023-08-12 21:08:33.300 _registerMbeans..................false
+2023-08-12 21:08:33.300 _scheduledExecutor...............none
+2023-08-12 21:08:33.301 _schema..........................none
+2023-08-12 21:08:33.301 _threadFactory...................internal
+2023-08-12 21:08:33.301 _transactionIsolation............default
+2023-08-12 21:08:33.301 _username........................"root"
+2023-08-12 21:08:33.301 _validationTimeout...............5000
+2023-08-12 21:08:33.308 _HikariPool-1 - Starting...
+2023-08-12 21:08:34.132 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@43196746
+2023-08-12 21:08:34.135 _HikariPool-1 - Start completed.
+2023-08-12 21:08:34.250 _HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=1)
+2023-08-12 21:08:34.321 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65668074
+2023-08-12 21:08:34.448 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@245b8a4f
+2023-08-12 21:08:34.505 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15358a83
+2023-08-12 21:08:34.554 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@44747500
+2023-08-12 21:08:34.602 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@403acdc5
+2023-08-12 21:08:34.646 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e0a7d13
+2023-08-12 21:08:34.689 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4672a86
+2023-08-12 21:08:34.750 _Failed to update inventory with ID 8008: Cannot add or update a child row: a foreign key constraint fails (`inventorymanagement`.`inventory`, CONSTRAINT `inventory_ibfk_1` FOREIGN KEY (`item_category_id`) REFERENCES `itemcategory` (`id`))
+2023-08-12 21:08:34.768 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2712e82
+2023-08-12 21:08:34.782 _Inventory updated
+2023-08-12 21:08:34.820 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@12be33f
+2023-08-12 21:09:04.257 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:09:34.270 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:10:04.278 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:10:34.289 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:11:04.302 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:11:34.316 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:12:04.320 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:12:34.332 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:13:04.333 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:13:05.961 _Updating inventory
+2023-08-12 21:13:06.022 _Failed to update inventory with ID 1: Cannot add or update a child row: a foreign key constraint fails (`inventorymanagement`.`inventory`, CONSTRAINT `inventory_ibfk_1` FOREIGN KEY (`item_category_id`) REFERENCES `itemcategory` (`id`))
+2023-08-12 21:13:06.023 _Inventory updated
+2023-08-12 21:13:34.334 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:14:04.345 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:14:34.352 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:15:04.358 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:15:34.359 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:16:04.367 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:16:34.374 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:16:39.157 _Updating inventory
+2023-08-12 21:16:39.236 _Updated inventory with ID: 1
+2023-08-12 21:16:39.236 _Inventory updated
+2023-08-12 21:17:04.374 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:17:34.378 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:18:04.388 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:18:34.392 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:19:04.404 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:20:11.412 _Updating inventory
+2023-08-12 21:20:11.447 _HikariPool-1 - configuration:
+2023-08-12 21:20:11.462 _allowPoolSuspension.............false
+2023-08-12 21:20:11.462 _autoCommit......................true
+2023-08-12 21:20:11.463 _catalog.........................none
+2023-08-12 21:20:11.463 _connectionInitSql...............none
+2023-08-12 21:20:11.463 _connectionTestQuery.............none
+2023-08-12 21:20:11.465 _connectionTimeout...............30000
+2023-08-12 21:20:11.466 _dataSource......................none
+2023-08-12 21:20:11.466 _dataSourceClassName.............none
+2023-08-12 21:20:11.466 _dataSourceJNDI..................none
+2023-08-12 21:20:11.467 _dataSourceProperties............{password=<masked>}
+2023-08-12 21:20:11.467 _driverClassName.................none
+2023-08-12 21:20:11.468 _healthCheckProperties...........{}
+2023-08-12 21:20:11.468 _healthCheckRegistry.............none
+2023-08-12 21:20:11.468 _idleTimeout.....................600000
+2023-08-12 21:20:11.468 _initializationFailTimeout.......1
+2023-08-12 21:20:11.468 _isolateInternalQueries..........false
+2023-08-12 21:20:11.469 _jdbcUrl.........................jdbc:mysql://localhost:3306/inventorymanagement
+2023-08-12 21:20:11.469 _leakDetectionThreshold..........0
+2023-08-12 21:20:11.470 _maxLifetime.....................1800000
+2023-08-12 21:20:11.470 _maximumPoolSize.................10
+2023-08-12 21:20:11.470 _metricRegistry..................none
+2023-08-12 21:20:11.470 _metricsTrackerFactory...........none
+2023-08-12 21:20:11.471 _minimumIdle.....................10
+2023-08-12 21:20:11.471 _password........................<masked>
+2023-08-12 21:20:11.471 _poolName........................"HikariPool-1"
+2023-08-12 21:20:11.471 _readOnly........................false
+2023-08-12 21:20:11.472 _registerMbeans..................false
+2023-08-12 21:20:11.472 _scheduledExecutor...............none
+2023-08-12 21:20:11.472 _schema..........................none
+2023-08-12 21:20:11.472 _threadFactory...................internal
+2023-08-12 21:20:11.473 _transactionIsolation............default
+2023-08-12 21:20:11.473 _username........................"root"
+2023-08-12 21:20:11.473 _validationTimeout...............5000
+2023-08-12 21:20:11.488 _HikariPool-1 - Starting...
+2023-08-12 21:20:12.476 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a5eb359
+2023-08-12 21:20:12.480 _HikariPool-1 - Start completed.
+2023-08-12 21:20:12.595 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5540572a
+2023-08-12 21:20:12.597 _HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=1)
+2023-08-12 21:20:12.664 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@147d5d11
+2023-08-12 21:20:12.735 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@25234b2a
+2023-08-12 21:20:12.817 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7452a25e
+2023-08-12 21:20:12.909 _Updated inventory with ID: 1
+2023-08-12 21:20:12.912 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@701c3aad
+2023-08-12 21:20:12.925 _Inventory updated
+2023-08-12 21:20:12.982 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@642f7607
+2023-08-12 21:20:13.025 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@de68176
+2023-08-12 21:20:13.068 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@a5097cc
+2023-08-12 21:20:13.114 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5f9ec9ef
+2023-08-12 21:20:13.115 _HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:20:42.602 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:21:12.605 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:21:51.815 _Updating inventory
+2023-08-12 21:21:51.848 _HikariPool-1 - configuration:
+2023-08-12 21:21:51.861 _allowPoolSuspension.............false
+2023-08-12 21:21:51.861 _autoCommit......................true
+2023-08-12 21:21:51.861 _catalog.........................none
+2023-08-12 21:21:51.862 _connectionInitSql...............none
+2023-08-12 21:21:51.862 _connectionTestQuery.............none
+2023-08-12 21:21:51.864 _connectionTimeout...............30000
+2023-08-12 21:21:51.865 _dataSource......................none
+2023-08-12 21:21:51.865 _dataSourceClassName.............none
+2023-08-12 21:21:51.865 _dataSourceJNDI..................none
+2023-08-12 21:21:51.866 _dataSourceProperties............{password=<masked>}
+2023-08-12 21:21:51.868 _driverClassName.................none
+2023-08-12 21:21:51.869 _healthCheckProperties...........{}
+2023-08-12 21:21:51.869 _healthCheckRegistry.............none
+2023-08-12 21:21:51.870 _idleTimeout.....................600000
+2023-08-12 21:21:51.870 _initializationFailTimeout.......1
+2023-08-12 21:21:51.871 _isolateInternalQueries..........false
+2023-08-12 21:21:51.871 _jdbcUrl.........................jdbc:mysql://localhost:3306/inventorymanagement
+2023-08-12 21:21:51.871 _leakDetectionThreshold..........0
+2023-08-12 21:21:51.871 _maxLifetime.....................1800000
+2023-08-12 21:21:51.872 _maximumPoolSize.................10
+2023-08-12 21:21:51.872 _metricRegistry..................none
+2023-08-12 21:21:51.872 _metricsTrackerFactory...........none
+2023-08-12 21:21:51.872 _minimumIdle.....................10
+2023-08-12 21:21:51.872 _password........................<masked>
+2023-08-12 21:21:51.872 _poolName........................"HikariPool-1"
+2023-08-12 21:21:51.873 _readOnly........................false
+2023-08-12 21:21:51.873 _registerMbeans..................false
+2023-08-12 21:21:51.873 _scheduledExecutor...............none
+2023-08-12 21:21:51.873 _schema..........................none
+2023-08-12 21:21:51.874 _threadFactory...................internal
+2023-08-12 21:21:51.874 _transactionIsolation............default
+2023-08-12 21:21:51.874 _username........................"root"
+2023-08-12 21:21:51.874 _validationTimeout...............5000
+2023-08-12 21:21:51.883 _HikariPool-1 - Starting...
+2023-08-12 21:21:52.741 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37e18027
+2023-08-12 21:21:52.745 _HikariPool-1 - Start completed.
+2023-08-12 21:21:52.841 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@cfae587
+2023-08-12 21:21:52.851 _HikariPool-1 - Pool stats (total=2, active=2, idle=0, waiting=0)
+2023-08-12 21:21:52.913 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4dc7efbc
+2023-08-12 21:21:52.970 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c40828c
+2023-08-12 21:21:53.023 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2de810f3
+2023-08-12 21:21:53.071 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@29a649ba
+2023-08-12 21:21:53.080 _Updated inventory with ID: 1
+2023-08-12 21:21:53.094 _Inventory updated
+2023-08-12 21:21:53.122 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@34427151
+2023-08-12 21:21:53.174 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4ec51707
+2023-08-12 21:21:53.221 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@50954c1d
+2023-08-12 21:21:53.276 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4839379e
+2023-08-12 21:21:53.276 _HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:22:19.470 _Deleting inventory
+2023-08-12 21:22:19.470 _Inventory deleted
+2023-08-12 21:22:22.854 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:22:52.860 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:23:22.869 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:23:52.875 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:24:22.880 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:24:52.894 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:25:22.907 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:25:52.915 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:26:22.920 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:26:52.933 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:27:22.935 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:27:52.945 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:28:22.947 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:28:52.955 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:29:22.956 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:29:52.959 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-12 21:30:22.967 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
