@@ -19,6 +19,7 @@ public class InventoryService {
     private static final Logger logger = LoggerFactory.getLogger("LoggerFile");
     private final ItemCategoryService itemCategoryService = new ItemCategoryService();
     private final ItemLocationService itemLocationService = new ItemLocationService();
+    private final AuthenticationService authService = new AuthenticationService();
 
     private final SQLQueries queries = new SQLQueries();
 
@@ -292,7 +293,7 @@ public class InventoryService {
 
 
     private int getLocationIDByName(String locationName) {
-        int locationId = -1; 
+        int locationId = -1;
 
         try (Connection connection = DatabaseConnectionManager.getConnection();
              PreparedStatement statement = connection.prepareStatement(SQLQueries.getLocationIdByName)) {

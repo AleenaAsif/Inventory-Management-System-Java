@@ -1644,3 +1644,237 @@
 2023-08-12 21:29:22.956 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
 2023-08-12 21:29:52.959 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
 2023-08-12 21:30:22.967 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 19:54:29.987 _got username and password from basic auth : InventoryResource
+2023-08-13 19:54:30.196 _HikariPool-1 - configuration:
+2023-08-13 19:54:30.232 _allowPoolSuspension.............false
+2023-08-13 19:54:30.234 _autoCommit......................true
+2023-08-13 19:54:30.236 _catalog.........................none
+2023-08-13 19:54:30.237 _connectionInitSql...............none
+2023-08-13 19:54:30.237 _connectionTestQuery.............none
+2023-08-13 19:54:30.249 _connectionTimeout...............30000
+2023-08-13 19:54:30.250 _dataSource......................none
+2023-08-13 19:54:30.250 _dataSourceClassName.............none
+2023-08-13 19:54:30.251 _dataSourceJNDI..................none
+2023-08-13 19:54:30.253 _dataSourceProperties............{password=<masked>}
+2023-08-13 19:54:30.253 _driverClassName.................none
+2023-08-13 19:54:30.254 _healthCheckProperties...........{}
+2023-08-13 19:54:30.254 _healthCheckRegistry.............none
+2023-08-13 19:54:30.254 _idleTimeout.....................600000
+2023-08-13 19:54:30.255 _initializationFailTimeout.......1
+2023-08-13 19:54:30.255 _isolateInternalQueries..........false
+2023-08-13 19:54:30.256 _jdbcUrl.........................jdbc:mysql://localhost:3306/inventorymanagement
+2023-08-13 19:54:30.256 _leakDetectionThreshold..........0
+2023-08-13 19:54:30.256 _maxLifetime.....................1800000
+2023-08-13 19:54:30.256 _maximumPoolSize.................10
+2023-08-13 19:54:30.257 _metricRegistry..................none
+2023-08-13 19:54:30.257 _metricsTrackerFactory...........none
+2023-08-13 19:54:30.260 _minimumIdle.....................10
+2023-08-13 19:54:30.261 _password........................<masked>
+2023-08-13 19:54:30.262 _poolName........................"HikariPool-1"
+2023-08-13 19:54:30.262 _readOnly........................false
+2023-08-13 19:54:30.263 _registerMbeans..................false
+2023-08-13 19:54:30.263 _scheduledExecutor...............none
+2023-08-13 19:54:30.263 _schema..........................none
+2023-08-13 19:54:30.264 _threadFactory...................internal
+2023-08-13 19:54:30.264 _transactionIsolation............default
+2023-08-13 19:54:30.264 _username........................"root"
+2023-08-13 19:54:30.265 _validationTimeout...............5000
+2023-08-13 19:54:30.379 _HikariPool-1 - Starting...
+2023-08-13 19:54:33.183 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@786e6d8a
+2023-08-13 19:54:33.201 _HikariPool-1 - Start completed.
+2023-08-13 19:54:33.309 _HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2023-08-13 19:54:33.563 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5105a1a5
+2023-08-13 19:54:33.667 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1038ab9e
+2023-08-13 19:54:33.727 _got user role : AuthenticationService
+2023-08-13 19:54:33.765 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@21e27c06
+2023-08-13 19:54:33.811 _Authorization received in InventoryResource
+2023-08-13 19:54:33.811 _Authorized :InventoryResource
+2023-08-13 19:54:34.084 _got item by id: ItemCategoryService
+2023-08-13 19:54:34.247 _got item by id: ItemLocationervice
+2023-08-13 19:54:34.249 _got item by id: ItemCategoryService
+2023-08-13 19:54:34.251 _got item by id: ItemLocationervice
+2023-08-13 19:54:34.254 _got item by id: ItemCategoryService
+2023-08-13 19:54:34.257 _got item by id: ItemLocationervice
+2023-08-13 19:54:34.263 _got item by id: ItemCategoryService
+2023-08-13 19:54:34.266 _got item by id: ItemLocationervice
+2023-08-13 19:54:34.268 _got item by id: ItemCategoryService
+2023-08-13 19:54:34.271 _got item by id: ItemLocationervice
+2023-08-13 19:54:34.276 _got item by id: ItemCategoryService
+2023-08-13 19:54:34.280 _got item by id: ItemLocationervice
+2023-08-13 19:54:34.862 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@701754d1
+2023-08-13 19:54:35.062 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@74594867
+2023-08-13 19:54:35.291 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@44b149aa
+2023-08-13 19:54:35.417 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@558d43a2
+2023-08-13 19:54:35.736 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2555151b
+2023-08-13 19:54:35.812 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3857795b
+2023-08-13 19:54:35.812 _HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 19:55:03.316 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 19:55:33.330 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 19:56:03.341 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 19:56:33.348 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 19:57:03.359 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 19:57:14.089 _got username and password from basic auth : InventoryResource
+2023-08-13 19:57:14.093 _got user role : AuthenticationService
+2023-08-13 19:57:14.094 _Authorization received in InventoryResource
+2023-08-13 19:57:14.102 _got item by id: ItemCategoryService
+2023-08-13 19:57:14.105 _got item by id: ItemLocationervice
+2023-08-13 19:57:14.105 _Fetched inventory by id  : InventoryResource
+2023-08-13 19:57:33.362 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 19:58:03.372 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 19:58:33.374 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 19:59:02.291 _got username and password from basic auth : InventoryResource
+2023-08-13 19:59:02.294 _got user role : AuthenticationService
+2023-08-13 19:59:02.294 _Authorization received in InventoryResource
+2023-08-13 19:59:03.065 _Added new inventory item with ID: 8011
+2023-08-13 19:59:03.065 _Adding new inventory item : InventoryResource
+2023-08-13 19:59:03.390 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 19:59:33.403 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 19:59:41.558 _got username and password from basic auth : InventoryResource
+2023-08-13 19:59:41.564 _got user role : AuthenticationService
+2023-08-13 19:59:41.565 _Authorization received in InventoryResource
+2023-08-13 19:59:41.565 _Updating inventory : InventoryResource
+2023-08-13 19:59:41.754 _Updated inventory with ID: 1
+2023-08-13 19:59:41.755 _Inventory updated : InventoryResource
+2023-08-13 20:00:03.417 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:00:19.218 _got username and password from basic auth : InventoryResource
+2023-08-13 20:00:19.220 _got user role : AuthenticationService
+2023-08-13 20:00:19.220 _Authorization received in InventoryResource
+2023-08-13 20:00:19.220 _Authorized :InventoryResource
+2023-08-13 20:00:19.227 _got item by id: ItemCategoryService
+2023-08-13 20:00:19.229 _got item by id: ItemLocationervice
+2023-08-13 20:00:19.231 _got item by id: ItemCategoryService
+2023-08-13 20:00:19.233 _got item by id: ItemLocationervice
+2023-08-13 20:00:19.235 _got item by id: ItemCategoryService
+2023-08-13 20:00:19.237 _got item by id: ItemLocationervice
+2023-08-13 20:00:19.239 _got item by id: ItemCategoryService
+2023-08-13 20:00:19.243 _got item by id: ItemLocationervice
+2023-08-13 20:00:19.245 _got item by id: ItemCategoryService
+2023-08-13 20:00:19.248 _got item by id: ItemLocationervice
+2023-08-13 20:00:19.251 _got item by id: ItemCategoryService
+2023-08-13 20:00:19.252 _got item by id: ItemLocationervice
+2023-08-13 20:00:19.254 _got item by id: ItemCategoryService
+2023-08-13 20:00:19.257 _got item by id: ItemLocationervice
+2023-08-13 20:00:33.425 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:00:52.874 _got username and password from basic auth : InventoryResource
+2023-08-13 20:00:52.876 _got user role : AuthenticationService
+2023-08-13 20:00:52.877 _Authorization received in InventoryResource
+2023-08-13 20:00:52.877 _Updating inventory : InventoryResource
+2023-08-13 20:00:52.983 _Updated inventory with ID: 8011
+2023-08-13 20:00:52.983 _Inventory updated : InventoryResource
+2023-08-13 20:01:03.432 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:01:22.356 _got username and password from basic auth : InventoryResource
+2023-08-13 20:01:22.360 _got user role : AuthenticationService
+2023-08-13 20:01:22.361 _Authorization received in InventoryResource
+2023-08-13 20:01:22.493 _Deleting inventory : InventoryResource
+2023-08-13 20:01:22.493 _Inventory deleted : InventoryResource
+2023-08-13 20:01:33.442 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:02:03.450 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:02:33.453 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:02:37.936 _got username and password from basic auth : InventoryResource
+2023-08-13 20:02:37.958 _Authorization not received in InventoryResource
+2023-08-13 20:02:37.958 _Unauthorized access : InventoryResource
+2023-08-13 20:03:03.455 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:03:33.469 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:04:03.480 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:04:33.494 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:05:03.504 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:05:33.518 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:06:03.521 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:06:33.524 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:07:03.530 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:07:33.537 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:08:03.540 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:08:33.553 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:09:03.557 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:09:33.569 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:10:03.578 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:10:25.614 _got username and password from basic auth : InventoryResource
+2023-08-13 20:10:25.633 _got user role : AuthenticationService
+2023-08-13 20:10:25.634 _Authorization received in InventoryResource
+2023-08-13 20:10:25.634 _Fetching inventories by category : InventoryResource
+2023-08-13 20:10:33.580 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:11:03.591 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:11:33.594 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:12:03.609 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:12:33.620 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:13:03.633 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:13:33.642 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:14:03.647 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:14:33.648 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:15:03.663 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:15:33.669 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:16:03.682 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:16:33.684 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:17:03.694 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:17:33.712 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:18:03.717 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:18:29.201 _got username and password from basic auth : InventoryResource
+2023-08-13 20:18:29.206 _got user role : AuthenticationService
+2023-08-13 20:18:29.206 _Authorization received in InventoryResource
+2023-08-13 20:18:29.206 _Authorized :InventoryResource
+2023-08-13 20:18:29.214 _got item by id: ItemCategoryService
+2023-08-13 20:18:29.216 _got item by id: ItemLocationervice
+2023-08-13 20:18:29.219 _got item by id: ItemCategoryService
+2023-08-13 20:18:29.221 _got item by id: ItemLocationervice
+2023-08-13 20:18:29.223 _got item by id: ItemCategoryService
+2023-08-13 20:18:29.225 _got item by id: ItemLocationervice
+2023-08-13 20:18:29.229 _got item by id: ItemCategoryService
+2023-08-13 20:18:29.232 _got item by id: ItemLocationervice
+2023-08-13 20:18:29.236 _got item by id: ItemCategoryService
+2023-08-13 20:18:29.238 _got item by id: ItemLocationervice
+2023-08-13 20:18:29.239 _got item by id: ItemCategoryService
+2023-08-13 20:18:29.242 _got item by id: ItemLocationervice
+2023-08-13 20:18:33.723 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:18:57.966 _got username and password from basic auth : InventoryResource
+2023-08-13 20:18:57.969 _got user role : AuthenticationService
+2023-08-13 20:18:57.969 _Authorization received in InventoryResource
+2023-08-13 20:18:57.969 _Fetching inventories by category : InventoryResource
+2023-08-13 20:18:57.974 _got item by id: ItemCategoryService
+2023-08-13 20:18:57.976 _got item by id: ItemLocationervice
+2023-08-13 20:18:57.982 _got item by id: ItemCategoryService
+2023-08-13 20:18:57.984 _got item by id: ItemLocationervice
+2023-08-13 20:18:57.986 _got item by id: ItemCategoryService
+2023-08-13 20:18:57.988 _got item by id: ItemLocationervice
+2023-08-13 20:18:57.990 _got item by id: ItemCategoryService
+2023-08-13 20:18:57.992 _got item by id: ItemLocationervice
+2023-08-13 20:18:57.995 _got item by id: ItemCategoryService
+2023-08-13 20:18:58.000 _got item by id: ItemLocationervice
+2023-08-13 20:19:03.729 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:19:17.871 _got username and password from basic auth : InventoryResource
+2023-08-13 20:19:17.874 _got user role : AuthenticationService
+2023-08-13 20:19:17.874 _Authorization received in InventoryResource
+2023-08-13 20:19:17.874 _Fetching inventories by category : InventoryResource
+2023-08-13 20:19:17.880 _got item by id: ItemCategoryService
+2023-08-13 20:19:17.883 _got item by id: ItemLocationervice
+2023-08-13 20:19:33.730 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:20:03.734 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:20:16.278 _got username and password from basic auth : InventoryResource
+2023-08-13 20:20:16.285 _got user role : AuthenticationService
+2023-08-13 20:20:16.286 _Authorization received in InventoryResource
+2023-08-13 20:20:16.286 _Fetching inventories by location  : InventoryResource
+2023-08-13 20:20:16.290 _got item by id: ItemCategoryService
+2023-08-13 20:20:16.292 _got item by id: ItemLocationervice
+2023-08-13 20:20:16.294 _got item by id: ItemCategoryService
+2023-08-13 20:20:16.296 _got item by id: ItemLocationervice
+2023-08-13 20:20:33.737 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:20:41.174 _got username and password from basic auth : InventoryResource
+2023-08-13 20:20:41.177 _got user role : AuthenticationService
+2023-08-13 20:20:41.177 _Authorization received in InventoryResource
+2023-08-13 20:20:41.178 _Fetching inventories by location and category : InventoryResource
+2023-08-13 20:20:41.224 _got item by id: ItemCategoryService
+2023-08-13 20:20:41.226 _got item by id: ItemLocationervice
+2023-08-13 20:21:03.739 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:21:33.744 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:22:03.750 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:22:33.759 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:23:03.766 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:23:33.772 _HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:23:52.463 _HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@74594867: (connection has passed maxLifetime)
+2023-08-13 20:23:52.685 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3f2f7458
+2023-08-13 20:23:55.448 _HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@44b149aa: (connection has passed maxLifetime)
+2023-08-13 20:23:55.595 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7e127e63
+2023-08-13 20:23:55.595 _HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-08-13 20:24:00.313 _HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@558d43a2: (connection has passed maxLifetime)
+2023-08-13 20:24:00.401 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4fa6e501
+2023-08-13 20:24:01.623 _HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3857795b: (connection has passed maxLifetime)
+2023-08-13 20:24:01.694 _HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e3d812c

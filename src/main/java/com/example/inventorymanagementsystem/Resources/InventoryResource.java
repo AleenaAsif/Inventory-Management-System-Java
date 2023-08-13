@@ -1,6 +1,7 @@
 package com.example.inventorymanagementsystem.Resources;
 
 import com.example.inventorymanagementsystem.Domains.InventoryDomain;
+import com.example.inventorymanagementsystem.Services.AuthenticationService;
 import com.example.inventorymanagementsystem.Services.InventoryService;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
@@ -18,98 +19,278 @@ public class InventoryResource {
 
 
     public final InventoryService inventoryService = new InventoryService();
+    public final AuthenticationService authService = new AuthenticationService();
+
+
+
+    public boolean isAuthorized(String username, String password, String[] allowedRoles) {
+        String userRole = authService.getUserRole(username, password);
+        if (userRole != null) {
+            for (String role : allowedRoles) {
+                if (role.equalsIgnoreCase(userRole)) {
+                    logger.info("Authorization received in InventoryResource");
+                    return true;
+                }
+            }
+        }
+        logger.error("Authorization not received in InventoryResource");
+        return false;
+    }
+
 
     @GET
     @Path("/list")
     //fetching all inventories from database
-    public List<InventoryDomain> fetchAllInventories() {
-        logger.info("here");
-        return inventoryService.fetchAllInventories();
+    public List<InventoryDomain> fetchAllInventories(@HeaderParam("Authorization") String basicAuth) {
+        String[] usernamePassword = getUsernameAndPasswordFromBasicAuth(basicAuth);
 
-    }
+        if (usernamePassword != null && usernamePassword.length == 2) {
+            String username = usernamePassword[0];
+            String password = usernamePassword[1];
 
-    @GET
-    @Path("/{inventory_id}")
-//fetching an inventory from database based on id provided by the user
-    public Response fetchInventoryById(@PathParam("inventory_id") int inventoryId) {
-        InventoryDomain inventoryDomain = inventoryService.fetchInventoryById(inventoryId);
-        if (inventoryDomain != null) {
-            logger.info("Fetched inventory by id");
-            return Response.ok(inventoryDomain).build();
+            String[] allowedRoles = { "admin", "user" };
+            if (isAuthorized(username, password, allowedRoles)) {
+                logger.info("Authorized :InventoryResource");
+                return inventoryService.fetchAllInventories();
+            } else {
+                logger.error("Unauthorized access : InventoryResource");
+                throw new WebApplicationException(Response.Status.FORBIDDEN);
+            }
         } else {
-            logger.error("Could not fetch inventory by id");
-            return Response.status(Response.Status.NOT_FOUND).build();
+            logger.error("Invalid authorization credentials  : InventoryResource");
+            throw new WebApplicationException(Response.Status.UNAUTHORIZED);
         }
     }
 
+
+    @GET
+    @Path("/{inventory_id}")
+    public Response fetchInventoryById(@PathParam("inventory_id") int inventoryId,
+                                       @HeaderParam("Authorization") String basicAuth) {
+        String[] usernamePassword = getUsernameAndPasswordFromBasicAuth(basicAuth);
+
+        if (usernamePassword != null && usernamePassword.length == 2) {
+            String username = usernamePassword[0];
+            String password = usernamePassword[1];
+
+            String[] allowedRoles = { "admin", "user" };
+            if (isAuthorized(username, password, allowedRoles)) {
+                InventoryDomain inventoryDomain = inventoryService.fetchInventoryById(inventoryId);
+                if (inventoryDomain != null) {
+                    logger.info("Fetched inventory by id  : InventoryResource");
+                    return Response.ok(inventoryDomain).build();
+                } else {
+                    logger.error("Could not fetch inventory by id  : InventoryResource");
+                    return Response.status(Response.Status.NOT_FOUND).build();
+                }
+            } else {
+                logger.error("Unauthorized access  : InventoryResource");
+                throw new WebApplicationException(Response.Status.FORBIDDEN);
+            }
+        } else {
+            logger.error("Invalid authorization credentials  : InventoryResource");
+            throw new WebApplicationException(Response.Status.UNAUTHORIZED);
+        }
+    }
+
+
     @GET
     @Path("/listByCategory")
-    public List<InventoryDomain> fetchInventoriesByCategory(@QueryParam("category") int categoryId) {
-        logger.info("Fetching inventories by category");
-        return inventoryService.fetchInventoriesByCategory(categoryId);
+    public List<InventoryDomain> fetchInventoriesByCategory(@QueryParam("category") int categoryId,
+                                                            @HeaderParam("Authorization") String basicAuth) {
+        logger.info("reached ListByCategory: InventoryResource");
+        String[] usernamePassword = getUsernameAndPasswordFromBasicAuth(basicAuth);
+
+        if (usernamePassword != null && usernamePassword.length == 2) {
+            String username = usernamePassword[0];
+            String password = usernamePassword[1];
+
+            String[] allowedRoles = { "admin", "user" };
+            if (isAuthorized(username, password, allowedRoles)) {
+                logger.info("Fetching inventories by category : InventoryResource");
+                return inventoryService.fetchInventoriesByCategory(categoryId);
+            } else {
+                logger.error("Unauthorized access : InventoryResource");
+                throw new WebApplicationException(Response.Status.FORBIDDEN);
+            }
+        } else {
+            logger.error("Invalid authorization credentials : InventoryResource");
+            throw new WebApplicationException(Response.Status.UNAUTHORIZED);
+        }
     }
+
 
     @GET
     @Path("/listByLocation")
-    public List<InventoryDomain> fetchInventoriesByLocation(@QueryParam("location") int locationId) {
-        logger.info("Fetching inventories by location");
-        return inventoryService.fetchInventoriesByLocation(locationId);
+    public List<InventoryDomain> fetchInventoriesByLocation(@QueryParam("location") int locationId,
+                                                            @HeaderParam("Authorization") String basicAuth) {
+        String[] usernamePassword = getUsernameAndPasswordFromBasicAuth(basicAuth);
+
+        if (usernamePassword != null && usernamePassword.length == 2) {
+            String username = usernamePassword[0];
+            String password = usernamePassword[1];
+
+            String[] allowedRoles = { "admin", "user" };
+            if (isAuthorized(username,password, allowedRoles)) {
+                logger.info("Fetching inventories by location  : InventoryResource");
+                return inventoryService.fetchInventoriesByLocation(locationId);
+            } else {
+                logger.error("Unauthorized access : InventoryResource");
+                throw new WebApplicationException(Response.Status.FORBIDDEN);
+            }
+        } else {
+            logger.error("Invalid authorization credentials : InventoryResource");
+            throw new WebApplicationException(Response.Status.UNAUTHORIZED);
+        }
     }
+
 
     @GET
     @Path("/listByLocationAndCategory")
     public List<InventoryDomain> fetchInventoriesByLocationAndCategory(
             @QueryParam("location") int locationId,
-            @QueryParam("category") int categoryId) {
-        logger.info("Fetching inventories by location and category");
-        return inventoryService.fetchInventoriesByLocationAndCategory(locationId, categoryId);
-    }
+            @QueryParam("category") int categoryId,
+            @HeaderParam("Authorization") String basicAuth) {
+        String[] usernamePassword = getUsernameAndPasswordFromBasicAuth(basicAuth);
 
-    @POST
-    @Path("/add")
-    public Response addNewInventoryItem(InventoryDomain inventoryDomain) {
-        Response newInventoryResponse = inventoryService.addNewInventoryItem(inventoryDomain);
+        if (usernamePassword != null && usernamePassword.length == 2) {
+            String username = usernamePassword[0];
+            String password = usernamePassword[1];
 
-        if (newInventoryResponse.getStatus() == Response.Status.CREATED.getStatusCode()) {
-            InventoryDomain addedInventory = (InventoryDomain) newInventoryResponse.getEntity();
-            logger.info("Adding new inventory item");
-            return Response.status(Response.Status.CREATED).entity(addedInventory).build();
+            String[] allowedRoles = { "admin", "user" };
+            if (isAuthorized(username,password, allowedRoles)) {
+                logger.info("Fetching inventories by location and category : InventoryResource");
+                return inventoryService.fetchInventoriesByLocationAndCategory(locationId, categoryId);
+            } else {
+                logger.error("Unauthorized access : InventoryResource");
+                throw new WebApplicationException(Response.Status.FORBIDDEN);
+            }
         } else {
-            logger.error("Failed to add new inventory item");
-            return Response.status(Response.Status.INTERNAL_SERVER_ERROR).build();
+            logger.error("Invalid authorization credential : InventoryResources");
+            throw new WebApplicationException(Response.Status.UNAUTHORIZED);
         }
     }
 
+
+    @POST
+    @Path("/add")
+    public Response addNewInventoryItem(InventoryDomain inventoryDomain,
+                                        @HeaderParam("Authorization") String basicAuth) {
+        String[] usernamePassword = getUsernameAndPasswordFromBasicAuth(basicAuth);
+
+        if (usernamePassword != null && usernamePassword.length == 2) {
+            String username = usernamePassword[0];
+            String password = usernamePassword[1];
+
+            String[] allowedRoles = { "admin" };
+            if (isAuthorized(username, password, allowedRoles)) {
+                Response newInventoryResponse = inventoryService.addNewInventoryItem(inventoryDomain);
+
+                if (newInventoryResponse.getStatus() == Response.Status.CREATED.getStatusCode()) {
+                    InventoryDomain addedInventory = (InventoryDomain) newInventoryResponse.getEntity();
+                    logger.info("Adding new inventory item : InventoryResource");
+                    return Response.status(Response.Status.CREATED).entity(addedInventory).build();
+                } else {
+                    logger.error("Failed to add new inventory item : InventoryResource");
+                    return Response.status(Response.Status.INTERNAL_SERVER_ERROR).build();
+                }
+            } else {
+                logger.error("Unauthorized access : InventoryResource");
+                throw new WebApplicationException(Response.Status.FORBIDDEN);
+            }
+        } else {
+            logger.error("Invalid authorization credentials : InventoryResource");
+            throw new WebApplicationException(Response.Status.UNAUTHORIZED);
+        }
+    }
+
+
     @PUT
     @Path("/{inventory_id}")
-    public Response updateInventory(@PathParam("inventory_id") int inventoryId, InventoryDomain inventoryDomain) {
-        logger.info("Updating inventory");
-        Response updatedInventoryResponse = inventoryService.updateInventory(inventoryId, inventoryDomain);
+    public Response updateInventory(@PathParam("inventory_id") int inventoryId, InventoryDomain inventoryDomain,
+                                    @HeaderParam("Authorization") String basicAuth) {
+        String[] usernamePassword = getUsernameAndPasswordFromBasicAuth(basicAuth);
 
-        if (updatedInventoryResponse.getStatus() == Response.Status.OK.getStatusCode()) {
-            logger.info("Inventory updated");
-            return Response.ok(updatedInventoryResponse.getEntity()).build();
-        } else if (updatedInventoryResponse.getStatus() == Response.Status.NOT_FOUND.getStatusCode()) {
-            logger.error("Inventory update response not found");
-            return Response.status(Response.Status.NOT_FOUND).build();
+        if (usernamePassword != null && usernamePassword.length == 2) {
+            String username = usernamePassword[0];
+            String password = usernamePassword[1];
+
+            String[] allowedRoles = { "admin" };
+            if (isAuthorized(username, password, allowedRoles)) {
+                logger.info("Updating inventory : InventoryResource");
+                Response updatedInventoryResponse = inventoryService.updateInventory(inventoryId, inventoryDomain);
+
+                if (updatedInventoryResponse.getStatus() == Response.Status.OK.getStatusCode()) {
+                    logger.info("Inventory updated : InventoryResource");
+                    return Response.ok(updatedInventoryResponse.getEntity()).build();
+                } else if (updatedInventoryResponse.getStatus() == Response.Status.NOT_FOUND.getStatusCode()) {
+                    logger.error("Inventory update response not found : InventoryResource");
+                    return Response.status(Response.Status.NOT_FOUND).build();
+                } else {
+                    logger.error("Failed to update inventory : InventoryResource");
+                    return Response.status(Response.Status.INTERNAL_SERVER_ERROR).build();
+                }
+            } else {
+                logger.error("Unauthorized access : InventoryResource");
+                throw new WebApplicationException(Response.Status.FORBIDDEN);
+            }
         } else {
-            logger.error("Failed to update inventory");
-            return Response.status(Response.Status.INTERNAL_SERVER_ERROR).build();
+            logger.error("Invalid authorization credentials : InventoryResource");
+            throw new WebApplicationException(Response.Status.UNAUTHORIZED);
         }
     }
 
 
     @DELETE
     @Path("/{inventory_id}")
-    public Response deleteInventory(@PathParam("inventory_id") int inventoryId) {
-        boolean deleted = inventoryService.deleteInventory(inventoryId);
-        logger.info("Deleting inventory");
-        if (deleted) {
-            logger.info("Inventory deleted");
-            return Response.ok().entity("Inventory item deleted.").build();
+    public Response deleteInventory(@PathParam("inventory_id") int inventoryId,
+                                    @HeaderParam("Authorization") String basicAuth) {
+        String[] usernamePassword = getUsernameAndPasswordFromBasicAuth(basicAuth);
+
+        if (usernamePassword != null && usernamePassword.length == 2) {
+            String username = usernamePassword[0];
+            String password = usernamePassword[1];
+
+            String[] allowedRoles = { "admin" };
+            if (isAuthorized(username, password, allowedRoles)) {
+                boolean deleted = inventoryService.deleteInventory(inventoryId);
+                logger.info("Deleting inventory : InventoryResource");
+                if (deleted) {
+                    logger.info("Inventory deleted : InventoryResource");
+                    return Response.ok().entity("Inventory item deleted. : InventoryResource").build();
+                } else {
+                    logger.error("Inventory could not be deleted : InventoryResource");
+                    return Response.status(Response.Status.NOT_FOUND).build();
+                }
+            } else {
+                logger.error("Unauthorized access : InventoryResource");
+                throw new WebApplicationException(Response.Status.FORBIDDEN);
+            }
         } else {
-            logger.error("Inventory could not be deleted");
-            return Response.status(Response.Status.NOT_FOUND).build();
+            logger.error("Invalid authorization credentials : InventoryResource");
+            throw new WebApplicationException(Response.Status.UNAUTHORIZED);
         }
     }
+
+    private String[] getUsernameAndPasswordFromBasicAuth(String basicAuth) {
+        String[] credentials = basicAuth.split(" ");
+
+        if (credentials.length == 2 && "Basic".equalsIgnoreCase(credentials[0])) {
+            String decodedCredentials = new String(Base64.getDecoder().decode(credentials[1]));
+            String[] usernamePassword = decodedCredentials.split(":");
+            logger.info("got username and password from basic auth : InventoryResource");
+
+            if (usernamePassword.length == 2) {
+                return usernamePassword;
+            }
+        }logger.info("could not get username and password from basic auth : InventoryResource");
+
+
+        return null;
+    }
+
+
+
+
+
 }
