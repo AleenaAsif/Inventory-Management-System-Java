@@ -37,7 +37,7 @@ public class InventoryService {
 
                 int categoryId = resultSet.getInt("item_category_id");
                 ItemCategoryDomain itemCategory = itemCategoryService.getItemCategoryById(categoryId);
-                inventory.setItemCategory(itemCategory.getCategoryName()); // Use the appropriate property
+                inventory.setItemCategory(itemCategory.getCategoryName());
 
                 int locationId = resultSet.getInt("item_location_id");
                 ItemLocationDomain itemLocation = itemLocationService.getItemLocationById(locationId);
@@ -70,11 +70,11 @@ public class InventoryService {
 
                     int categoryId = resultSet.getInt("item_category_id");
                     ItemCategoryDomain itemCategory = itemCategoryService.getItemCategoryById(categoryId);
-                    inventoryDomain.setItemCategory(itemCategory.getCategoryName()); // Use the appropriate property
+                    inventoryDomain.setItemCategory(itemCategory.getCategoryName());
 
                     int locationId = resultSet.getInt("item_location_id");
                     ItemLocationDomain itemLocation = itemLocationService.getItemLocationById(locationId);
-                    inventoryDomain.setItemLocation(itemLocation.getLocationName()); // Use the appropriate property
+                    inventoryDomain.setItemLocation(itemLocation.getLocationName());
                 }
             } catch (Exception e) {
                 e.printStackTrace();
@@ -102,11 +102,11 @@ public class InventoryService {
 
                     int categoryId2 = resultSet.getInt("item_category_id");
                     ItemCategoryDomain itemCategory = itemCategoryService.getItemCategoryById(categoryId2);
-                    inventory.setItemCategory(String.valueOf(itemCategory.getCategoryName())); // Use the appropriate property
+                    inventory.setItemCategory(String.valueOf(itemCategory.getCategoryName()));
 
                     int locationId = resultSet.getInt("item_location_id");
                     ItemLocationDomain itemLocation = itemLocationService.getItemLocationById(locationId);
-                    inventory.setItemLocation(String.valueOf(itemLocation.getLocationName())); // Use the appropriate property
+                    inventory.setItemLocation(String.valueOf(itemLocation.getLocationName()));
 
                     inventories.add(inventory);
                 }
@@ -170,11 +170,11 @@ public class InventoryService {
 
                     int categoryId2 = resultSet.getInt("item_category_id");
                     ItemCategoryDomain itemCategory = itemCategoryService.getItemCategoryById(categoryId2);
-                    inventory.setItemCategory(itemCategory.getCategoryName()); // Set the actual category name
+                    inventory.setItemCategory(itemCategory.getCategoryName());
 
                     int locationId2 = resultSet.getInt("item_location_id");
                     ItemLocationDomain itemLocation = itemLocationService.getItemLocationById(locationId2);
-                    inventory.setItemLocation(itemLocation.getLocationName()); // Set the actual location name
+                    inventory.setItemLocation(itemLocation.getLocationName());
 
                     inventories.add(inventory);
                 }
