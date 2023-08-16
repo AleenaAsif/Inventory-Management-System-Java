@@ -6,11 +6,10 @@ public class InventoryDomain {
     private String itemName;
 
     private int itemQuantity;
-    private String itemCategory;
+    private ItemCategoryDomain itemCategory;
+    private ItemLocationDomain itemLocation;
 
-    private String itemLocation;
-
-    public InventoryDomain(int id, String itemName, int itemQuantity, String itemLocation, String itemCategory) {
+    public InventoryDomain(int id, String itemName, int itemQuantity, ItemLocationDomain itemLocation, ItemCategoryDomain itemCategory) {
         this.id = id;
         this.itemName = itemName;
         this.itemQuantity = itemQuantity;
@@ -46,19 +45,19 @@ public class InventoryDomain {
         return itemQuantity;
     }
 
-    public void setItemLocation(String itemLocation) {
+    public void setItemLocation(ItemLocationDomain itemLocation) {
         this.itemLocation = itemLocation;
     }
 
-    public String getItemLocation() {
+    public ItemLocationDomain getItemLocation() {
         return itemLocation;
     }
 
-    public void setItemCategory(String itemCategory) {
+    public void setItemCategory(ItemCategoryDomain itemCategory) {
         this.itemCategory = itemCategory;
     }
 
-    public String getItemCategory() {
+    public ItemCategoryDomain getItemCategory() {
         return itemCategory;
     }
 }

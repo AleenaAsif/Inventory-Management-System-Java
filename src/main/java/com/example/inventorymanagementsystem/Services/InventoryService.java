@@ -29,27 +29,26 @@ public class InventoryService {
         try (Connection connection = DatabaseConnectionManager.getConnection();
              PreparedStatement statement = connection.prepareStatement(SQLQueries.getAllInventories);
              ResultSet resultSet = statement.executeQuery()) {
+
             while (resultSet.next()) {
+                logger.info("inside while loop, fetchedAll : InventoryService");
+                ItemCategoryDomain category = new ItemCategoryDomain(resultSet.getInt("category_id"), resultSet.getString("category_name"));
+                ItemLocationDomain location = new ItemLocationDomain(resultSet.getInt("location_id"), resultSet.getString("location_name"));
+
                 InventoryDomain inventory = new InventoryDomain();
                 inventory.setId(resultSet.getInt("id"));
                 inventory.setItemName(resultSet.getString("item_name"));
                 inventory.setItemQuantity(resultSet.getInt("item_quantity"));
-
-                int categoryId = resultSet.getInt("item_category_id");
-                ItemCategoryDomain itemCategory = itemCategoryService.getItemCategoryById(categoryId);
-                inventory.setItemCategory(itemCategory.getCategoryName());
-
-                int locationId = resultSet.getInt("item_location_id");
-                ItemLocationDomain itemLocation = itemLocationService.getItemLocationById(locationId);
-                inventory.setItemLocation(itemLocation.getLocationName());
-
+                inventory.setItemCategory(category);
+                inventory.setItemLocation(location);
 
                 inventories.add(inventory);
             }
-        } catch (Exception e) {
-            logger.error("Failed to get all inventories from the database: InventoryService");
-            e.printStackTrace();
+
+        } catch (SQLException e) {
+            logger.error("Failed to get all inventories from the database: InventoryService", e);
         }
+
         return inventories;
     }
 
@@ -58,11 +57,13 @@ public class InventoryService {
         InventoryDomain inventoryDomain = null;
         try (Connection connection = DatabaseConnectionManager.getConnection();
              PreparedStatement statement = connection.prepareStatement(SQLQueries.getInventoryById)) {
+            logger.info("getting by id: inventoryService");
 
             statement.setInt(1, inventoryId);
 
             try (ResultSet resultSet = statement.executeQuery()) {
                 if (resultSet.next()) {
+                    logger.info("getting by id exists: inventoryService");
                     inventoryDomain = new InventoryDomain();
                     inventoryDomain.setId(resultSet.getInt("id"));
                     inventoryDomain.setItemName(resultSet.getString("item_name"));
@@ -70,20 +71,23 @@ public class InventoryService {
 
                     int categoryId = resultSet.getInt("item_category_id");
                     ItemCategoryDomain itemCategory = itemCategoryService.getItemCategoryById(categoryId);
-                    inventoryDomain.setItemCategory(itemCategory.getCategoryName());
+                    inventoryDomain.setItemCategory(new ItemCategoryDomain(itemCategory.getId(), itemCategory.getCategoryName()));
 
                     int locationId = resultSet.getInt("item_location_id");
                     ItemLocationDomain itemLocation = itemLocationService.getItemLocationById(locationId);
-                    inventoryDomain.setItemLocation(itemLocation.getLocationName());
+                    inventoryDomain.setItemLocation(new ItemLocationDomain(itemLocation.getId(), itemLocation.getLocationName()));
+
+
+                    inventoryDomain.setItemCategory(itemCategory);
+                    inventoryDomain.setItemLocation(itemLocation);
                 }
             } catch (Exception e) {
                 e.printStackTrace();
             }
-
-        } catch (Exception e) {
-            logger.error("Failed to get inventory by id from database: InventoryService");
+        } catch (SQLException e) {
             e.printStackTrace();
         }
+
         return inventoryDomain;
     }
 
@@ -92,7 +96,9 @@ public class InventoryService {
         List<InventoryDomain> inventories = new ArrayList<>();
         try (Connection connection = DatabaseConnectionManager.getConnection();
              PreparedStatement statement = connection.prepareStatement(SQLQueries.getInventoryByCategory)) {
+
             statement.setInt(1, categoryId);
+
             try (ResultSet resultSet = statement.executeQuery()) {
                 while (resultSet.next()) {
                     InventoryDomain inventory = new InventoryDomain();
@@ -102,30 +108,31 @@ public class InventoryService {
 
                     int categoryId2 = resultSet.getInt("item_category_id");
                     ItemCategoryDomain itemCategory = itemCategoryService.getItemCategoryById(categoryId2);
-                    inventory.setItemCategory(String.valueOf(itemCategory.getCategoryName()));
+                    inventory.setItemCategory(itemCategory);
 
                     int locationId = resultSet.getInt("item_location_id");
                     ItemLocationDomain itemLocation = itemLocationService.getItemLocationById(locationId);
-                    inventory.setItemLocation(String.valueOf(itemLocation.getLocationName()));
+                    inventory.setItemLocation(itemLocation);
 
                     inventories.add(inventory);
                 }
             } catch (Exception e) {
-                logger.error("Failed to get inventories by category id from database: InventoryService");
-                e.printStackTrace();
+                logger.error("Failed to get inventories by category id from database: InventoryService", e);
             }
         } catch (Exception e) {
-            logger.error("Failed to get inventories by category id from database: InventoryService");
-            e.printStackTrace();
+            logger.error("Failed to get inventories by category id from database: InventoryService", e);
         }
         return inventories;
     }
+
 
     public List<InventoryDomain> fetchInventoriesByLocation(int locationId) {
         List<InventoryDomain> inventories = new ArrayList<>();
         try (Connection connection = DatabaseConnectionManager.getConnection();
              PreparedStatement statement = connection.prepareStatement(SQLQueries.getInventoryByLocation)) {
+
             statement.setInt(1, locationId);
+
             try (ResultSet resultSet = statement.executeQuery()) {
                 while (resultSet.next()) {
                     InventoryDomain inventory = new InventoryDomain();
@@ -133,26 +140,27 @@ public class InventoryService {
                     inventory.setItemName(resultSet.getString("item_name"));
                     inventory.setItemQuantity(resultSet.getInt("item_quantity"));
 
-                    int categoryId2 = resultSet.getInt("item_category_id");
-                    ItemCategoryDomain itemCategory = itemCategoryService.getItemCategoryById(categoryId2);
-                    inventory.setItemCategory(String.valueOf(itemCategory.getCategoryName()));
+                    int categoryId = resultSet.getInt("item_category_id");
+                    ItemCategoryDomain itemCategory = itemCategoryService.getItemCategoryById(categoryId);
+                    inventory.setItemCategory(itemCategory);
 
                     int locationId2 = resultSet.getInt("item_location_id");
-                    ItemLocationDomain itemLocation = itemLocationService.getItemLocationById(locationId);
-                    inventory.setItemLocation(String.valueOf(itemLocation.getLocationName()));
+                    ItemLocationDomain itemLocation = itemLocationService.getItemLocationById(locationId2);
+                    inventory.setItemLocation(itemLocation);
 
                     inventories.add(inventory);
                 }
             } catch (Exception e) {
-                logger.error("Failed to get inventories by category id from database: InventoryService");
+                logger.error("Failed to get inventories by location id from database: InventoryService");
                 e.printStackTrace();
             }
         } catch (Exception e) {
-            logger.error("Failed to get inventories by category id from database: InventoryService");
+            logger.error("Failed to get inventories by location id from database: InventoryService");
             e.printStackTrace();
         }
         return inventories;
     }
+
     public List<InventoryDomain> fetchInventoriesByLocationAndCategory(int locationId, int categoryId) {
         List<InventoryDomain> inventories = new ArrayList<>();
 
@@ -169,12 +177,17 @@ public class InventoryService {
                     inventory.setItemQuantity(resultSet.getInt("item_quantity"));
 
                     int categoryId2 = resultSet.getInt("item_category_id");
-                    ItemCategoryDomain itemCategory = itemCategoryService.getItemCategoryById(categoryId2);
-                    inventory.setItemCategory(itemCategory.getCategoryName());
+                    ItemCategoryDomain itemCategory = new ItemCategoryDomain();
+                    itemCategory.setId(categoryId2);
+                    itemCategory.setCategoryName(resultSet.getString("category_name"));
 
                     int locationId2 = resultSet.getInt("item_location_id");
-                    ItemLocationDomain itemLocation = itemLocationService.getItemLocationById(locationId2);
-                    inventory.setItemLocation(itemLocation.getLocationName());
+                    ItemLocationDomain itemLocation = new ItemLocationDomain();
+                    itemLocation.setId(locationId2);
+                    itemLocation.setLocationName(resultSet.getString("location_name"));
+
+                    inventory.setItemCategory(itemCategory);
+                    inventory.setItemLocation(itemLocation);
 
                     inventories.add(inventory);
                 }
@@ -188,72 +201,82 @@ public class InventoryService {
     }
 
 
-    public Response addNewInventoryItem(InventoryDomain inventoryDomain) {
+    public InventoryDomain addNewInventoryItem(InventoryDomain inventoryDomain) {
         try (Connection connection = DatabaseConnectionManager.getConnection();
              PreparedStatement statement = connection.prepareStatement(SQLQueries.addInventory, Statement.RETURN_GENERATED_KEYS)) {
 
             statement.setString(1, inventoryDomain.getItemName());
             statement.setInt(2, inventoryDomain.getItemQuantity());
 
-            int categoryId = getCategoryIDByName(inventoryDomain.getItemCategory());
-            int locationId = getLocationIDByName(inventoryDomain.getItemLocation());
+            ItemCategoryDomain category = getCategoryByName(inventoryDomain.getItemCategory().getCategoryName());
+            ItemLocationDomain location = getLocationByName(inventoryDomain.getItemLocation().getLocationName());
 
-            statement.setInt(3, categoryId);
-            statement.setInt(4, locationId);
+            if (category != null && location != null) {
+                statement.setInt(3, category.getId());
+                statement.setInt(4, location.getId());
 
-            int rowsInserted = statement.executeUpdate();
+                int rowsInserted = statement.executeUpdate();
 
-            if (rowsInserted > 0) {
-                try (ResultSet generatedKeys = statement.getGeneratedKeys()) {
-                    if (generatedKeys.next()) {
-                        int generatedId = generatedKeys.getInt(1);
-                        inventoryDomain.setId(generatedId);
-                        logger.info("Added new inventory item with ID: " + generatedId);
-                        return Response.status(Response.Status.CREATED).entity(inventoryDomain).build();
-                    } else {
-                        logger.error("Failed to retrieve generated ID for new inventory item");
-                        return Response.status(Response.Status.INTERNAL_SERVER_ERROR).build();
+                if (rowsInserted > 0) {
+                    try (ResultSet generatedKeys = statement.getGeneratedKeys()) {
+                        if (generatedKeys.next()) {
+                            int generatedId = generatedKeys.getInt(1);
+                            inventoryDomain.setId(generatedId);
+                            logger.info("Added new inventory item with ID: " + generatedId);
+                            return inventoryDomain;
+                        } else {
+                            logger.error("Failed to retrieve generated ID for new inventory item");
+                            return null;
+                        }
                     }
+                } else {
+                    logger.error("Failed to add new inventory item");
+                    return null;
                 }
             } else {
-                logger.error("Failed to add new inventory item");
-                return Response.status(Response.Status.INTERNAL_SERVER_ERROR).build();
+                logger.error("Invalid category or location");
+                return null;
             }
         } catch (Exception e) {
             logger.error("Failed to add new inventory item: " + e.getMessage());
-            return Response.status(Response.Status.INTERNAL_SERVER_ERROR).build();
+            return null;
         }
     }
-    public Response updateInventory(int inventoryId, InventoryDomain inventoryDomain) {
+
+
+
+    public InventoryDomain updateInventory(int inventoryId, InventoryDomain updatedInventory) {
         try (Connection connection = DatabaseConnectionManager.getConnection();
              PreparedStatement statement = connection.prepareStatement(SQLQueries.updateInventory)) {
 
-            statement.setString(1, inventoryDomain.getItemName());
-            statement.setInt(2, inventoryDomain.getItemQuantity());
+            statement.setString(1, updatedInventory.getItemName());
+            statement.setInt(2, updatedInventory.getItemQuantity());
 
-            int categoryId = getCategoryIDByName(inventoryDomain.getItemCategory());
-            statement.setInt(3, categoryId);
+            ItemCategoryDomain category = getCategoryByName(updatedInventory.getItemCategory().getCategoryName());
+            ItemLocationDomain location = getLocationByName(updatedInventory.getItemLocation().getLocationName());
 
-            int locationId = getLocationIDByName(inventoryDomain.getItemLocation());
-            statement.setInt(4, locationId);
+            if (category != null && location != null) {
+                statement.setInt(3, category.getId());
+                statement.setInt(4, location.getId());
+                statement.setInt(5, inventoryId);
 
-            statement.setInt(5, inventoryId);
+                int rowsUpdated = statement.executeUpdate();
 
-            int rowsUpdated = statement.executeUpdate();
-
-            if (rowsUpdated > 0) {
-                logger.info("Updated inventory with ID: " + inventoryId);
-                // Create a success response with the updated inventoryDomain
-                return Response.ok(inventoryDomain).build();
+                if (rowsUpdated > 0) {
+                    updatedInventory.setId(inventoryId);
+                    logger.info("Updated inventory item with ID: " + inventoryId);
+                    return updatedInventory;
+                } else {
+                    logger.error("Failed to update inventory item");
+                    return null;
+                }
             } else {
-                logger.error("Failed to update inventory with ID: " + inventoryId);
-                // Return a NOT_FOUND response
-                return Response.status(Response.Status.NOT_FOUND).build();
+                logger.error("Invalid category or location");
+                return null;
             }
         } catch (Exception e) {
-            logger.error("Failed to update inventory with ID " + inventoryId + ": " + e.getMessage());
-            // Return an INTERNAL_SERVER_ERROR response
-            return Response.status(Response.Status.INTERNAL_SERVER_ERROR).build();
+            logger.error("Failed to update inventory item: " + e.getMessage());
+            return null;
         }
     }
 
@@ -271,8 +294,8 @@ public class InventoryService {
         }
     }
 
-    private int getCategoryIDByName(String categoryName) {
-        int categoryId = -1; // Default value if not found
+    private ItemCategoryDomain getCategoryByName(String categoryName) {
+        ItemCategoryDomain category = null;
 
         try (Connection connection = DatabaseConnectionManager.getConnection();
              PreparedStatement statement = connection.prepareStatement(SQLQueries.getCategoryIdByName)) {
@@ -281,19 +304,21 @@ public class InventoryService {
 
             try (ResultSet resultSet = statement.executeQuery()) {
                 if (resultSet.next()) {
-                    categoryId = resultSet.getInt("id");
+                    category = new ItemCategoryDomain();
+                    category.setId(resultSet.getInt("id"));
+                    category.setCategoryName(resultSet.getString("category_name"));
                 }
             }
         } catch (Exception e) {
-            logger.error("Failed to get category ID by name: " + e.getMessage());
+            logger.error("Failed to get category by name: " + e.getMessage());
         }
 
-        return categoryId;
+        return category;
     }
 
 
-    private int getLocationIDByName(String locationName) {
-        int locationId = -1;
+    private ItemLocationDomain getLocationByName(String locationName) {
+        ItemLocationDomain location = null;
 
         try (Connection connection = DatabaseConnectionManager.getConnection();
              PreparedStatement statement = connection.prepareStatement(SQLQueries.getLocationIdByName)) {
@@ -302,19 +327,18 @@ public class InventoryService {
 
             try (ResultSet resultSet = statement.executeQuery()) {
                 if (resultSet.next()) {
-                    locationId = resultSet.getInt("id");
+                    location = new ItemLocationDomain();
+                    location.setId(resultSet.getInt("id"));
+                    location.setLocationName(resultSet.getString("location_name"));
                 }
             }
         } catch (Exception e) {
-            logger.error("Failed to get location ID by name: " + e.getMessage());
+            logger.error("Failed to get location by name: " + e.getMessage());
         }
 
-        return locationId;
+        return location;
     }
 
-
-
-}
-
+    }
 
 

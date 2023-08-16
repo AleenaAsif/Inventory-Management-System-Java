@@ -1,20 +1,49 @@
 package com.example.inventorymanagementsystem.Services;
 public class SQLQueries {
 
-    public static final String getAllInventories="SELECT * FROM inventory";
-    public static final String getInventoryById="SELECT * FROM inventory WHERE id=?";
+    public static final String getAllInventories="SELECT i.id, i.item_name, i.item_quantity, c.id AS category_id, c.category_name, l.id AS location_id, l.location_name " +
+            "FROM inventory i " +
+            "JOIN itemcategory c ON i.item_category_id = c.id " +
+            "JOIN itemlocation l ON i.item_location_id = l.id";
+    public static final String getInventoryById="SELECT i.id, i.item_name, i.item_quantity, " +
+            "       c.id AS category_id, c.category_name, " +
+            "       l.id AS location_id, l.location_name " +
+            "FROM inventory i " +
+            "JOIN itemcategory c ON i.item_category_id = c.id " +
+            "JOIN itemlocation l ON i.item_location_id = l.id " +
+            "WHERE i.id = ?";
 
     public static final String addInventory="INSERT INTO inventory (item_name, item_quantity, item_category_id, item_location_id) VALUES (?, ?, ?, ?)";
-    public static final String getInventoryByCategory="SELECT * FROM inventory WHERE item_category_id=?";
+    public static final String getInventoryByCategory="SELECT i.id, i.item_name, i.item_quantity, " +
+            "i.item_category_id, i.item_location_id, " +
+            "c.id AS category_id, c.category_name, " +
+            "l.id AS location_id, l.location_name " +
+            "FROM inventory i " +
+            "JOIN itemcategory c ON i.item_category_id = c.id " +
+            "JOIN itemlocation l ON i.item_location_id = l.id " +
+            "WHERE i.item_category_id = ?";
 
 
-    public static final String getInventoryByLocation="SELECT * FROM inventory WHERE item_location_id=?";
-
+    public static final String getInventoryByLocation="SELECT i.id, i.item_name, i.item_quantity, " +
+            "i.item_category_id, i.item_location_id, " +
+            "c.id AS category_id, c.category_name, " +
+            "l.id AS location_id, l.location_name " +
+            "FROM inventory i " +
+            "JOIN itemcategory c ON i.item_category_id = c.id " +
+            "JOIN itemlocation l ON i.item_location_id = l.id " +
+            "WHERE i.item_location_id = ?";
 
     public static final String updateInventory = "UPDATE inventory SET item_name = ?, item_quantity = ?, item_category_id = ?, item_location_id = ? WHERE id = ?";
     public static final String deleteInventory = "DELETE FROM inventory WHERE id = ?";
     public static final String getInventoryByLocationAndCategory =
-            "SELECT * FROM inventory WHERE item_location_id = ? AND item_category_id = ?";
+            "SELECT i.id, i.item_name, i.item_quantity, " +
+                    "i.item_category_id, i.item_location_id, " +
+                    "c.category_name, " +
+                    "l.location_name " +
+                    "FROM inventory i " +
+                    "JOIN itemcategory c ON i.item_category_id = c.id " +
+                    "JOIN itemlocation l ON i.item_location_id = l.id " +
+                    "WHERE i.item_location_id = ? AND i.item_category_id = ?";
 
     public static final String userCheck="SELECT * FROM users WHERE username=? AND password=?";
 
